@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "title": "Palombaro Lungo — 馬泰拉地下水之大教堂",
+    "description": "探索Palombaro Lungo，義大利最大的地下蓄水池之一，位於馬泰拉維托里奧·維內托廣場下方。完整遊客指南，包含開放時間、票價及實用建議。"
+  },
+  "header": {
+    "siteTitle": "Palombaro Lungo",
+    "lightMode": "淺色",
+    "darkMode": "深色"
+  },
+  "hero": {
+    "title": "Palombaro Lungo",
+    "subtitle": "馬泰拉心臟地帶的地下水之大教堂",
+    "rating": "4.5/5",
+    "reviewCount": "11,880 則評論",
+    "hours": "每天 10:00–13:00 / 15:00–18:00",
+    "ticket": "€3 成人 · 未成年人免費",
+    "openMaps": "在Google Maps上開啟",
+    "tags": ["蓄水池", "地下", "UNESCO", "石窟民居", "水", "水之大教堂"]
+  },
+  "introduction": {
+    "title": "探索Palombaro Lungo",
+    "description": "Palombaro Lungo是義大利最大的地下蓄水池之一，隱藏在馬泰拉中心維托里奧·維內托廣場下方。因其宏偉的拱頂猶如教堂中殿而被稱為「水之大教堂」，這座非凡的水利工程傑作透過運河系統收集雨水和泉水，數百年來為城市提供飲用水。",
+    "highlights": [
+      "義大利最大的地下蓄水池之一，容量約500萬公升",
+      "深度15-18公尺，擁有宏偉的石灰岩拱頂和石柱",
+      "1991年維托里奧·維內托廣場翻修工程中被重新發現",
+      "馬泰拉石窟民居UNESCO世界遺產（1993年列入）的重要組成部分",
+      "Google Maps上獲得4.5分（滿分5分），約11,880則評論"
+    ]
+  },
+  "science": {
+    "title": "什麼是Palombaro Lungo",
+    "description": "Palombaro Lungo是一座在馬泰拉石灰岩中開鑿的水利工程傑作。「Palombaro」一詞源自拉丁語，意指用於收集水源的大型蓄水池。",
+    "items": [
+      {
+        "heading": "水源收集系統",
+        "text": "水源透過精密的運河系統收集，將雨水和泉水匯集在一起。這些運河穿越地下城市，持續不斷地為蓄水池供水。"
+      },
+      {
+        "heading": "陶片灰泥技術",
+        "text": "內壁覆蓋著「cocciopesto」——一種由碎陶片和石灰製成的防水灰泥。這種自羅馬時代就已使用的技術確保了完美的防水性能和飲用水的保存。"
+      },
+      {
+        "heading": "工程奇蹟",
+        "text": "容量約500萬公升、深度15-18公尺的Palombaro Lungo代表了一項非凡的工程成就。桶形拱頂和石灰岩柱以結構完美的方式分散重量，歷經數百年而不衰。"
+      },
+      {
+        "heading": "地下建築",
+        "text": "內部延伸約50公尺，高聳的尖拱創造出莊嚴的氛圍，堪比大教堂。石拱和石柱直接從石灰岩中雕刻而成。"
+      }
+    ]
+  },
+  "history": {
+    "title": "歷史與文化遺產",
+    "description": "Palombaro Lungo的歷史與馬泰拉及其巧妙的水資源管理系統緊密交織，這個系統歷經數百年發展，維繫著世界上最古老城市之一的生命。",
+    "timeline": [
+      {
+        "year": "13世紀",
+        "text": "最早的水源收集結構可追溯至1200年代，馬泰拉開始發展地下水資源管理系統。"
+      },
+      {
+        "year": "16世紀",
+        "text": "Palombaro Lungo以現今形式開始建造，作為維托里奧·維內托廣場下方的大型集中式蓄水池。"
+      },
+      {
+        "year": "1832年",
+        "text": "為滿足日益增長的人口需求而進行大規模擴建，容量提升至約500萬公升。"
+      },
+      {
+        "year": "1880年代",
+        "text": "進一步擴建和完善收集系統，新增運河並改進拱頂結構。"
+      },
+      {
+        "year": "1920年",
+        "text": "普利亞水渠完工使蓄水池變得過時。自來水通入家家戶戶，Palombaro Lungo逐漸被遺忘。"
+      },
+      {
+        "year": "1991年",
+        "text": "在維托里奧·維內托廣場翻修工程中被驚人地重新發現。蓄水池保存完好，內部仍有存水。"
+      },
+      {
+        "year": "1993年",
+        "text": "馬泰拉石窟民居被列入UNESCO世界遺產名錄。Palombaro Lungo見證了馬泰拉水利系統的卓越智慧。"
+      }
+    ]
+  },
+  "interior": {
+    "title": "內部景觀",
+    "description": "走進Palombaro Lungo是一次令人屏息的體驗。以下是參觀時可以期待的景象：",
+    "items": [
+      {
+        "heading": "宏偉的拱頂",
+        "text": "高聳的石灰岩尖拱在頭頂延伸，營造出「大教堂」般的效果，完美詮釋了這處遺址的別名。拱廊沿蓄水池全長依次排列。"
+      },
+      {
+        "heading": "石柱與拱門",
+        "text": "從石灰岩中雕刻而成的厚實石柱支撐著拱頂。每根石柱都直接從岩石中開鑿，見證了馬泰拉石匠的精湛技藝。"
+      },
+      {
+        "heading": "水面與倒影",
+        "text": "蓄水池底部仍有積水，在氣氛燈光下創造出迷人的倒影。靜止的水面放大了場所的寂靜與莊嚴。"
+      },
+      {
+        "heading": "金屬步道",
+        "text": "遊客沿水面上方的金屬步道行走，可以從不同角度安全地欣賞蓄水池全貌。"
+      },
+      {
+        "heading": "藝術照明",
+        "text": "精心設計的照明系統突顯石灰岩的紋理、拱頂和水面倒影，營造出獨特而引人入勝的氛圍。"
+      },
+      {
+        "heading": "陶片灰泥牆面",
+        "text": "近距離觀察牆面，可以看到紅色調的陶片灰泥塗層，這種以陶片為基底的防水材料數百年來保持著蓄水池的密封性。"
+      }
+    ]
+  },
+  "worthIt": {
+    "title": "值得一去嗎？",
+    "description": "一份誠實的評估，幫助您決定是否將Palombaro Lungo納入馬泰拉行程。",
+    "pros": [
+      "獨特而震撼的體驗——世界上極少有類似的地方",
+      "超值票價：僅€3即可獲得難忘體驗，未成年人免費",
+      "位於維托里奧·維內托廣場正下方，交通極為便利",
+      "參觀時間短（約15分鐘），可輕鬆融入任何行程",
+      "與地面石窟民居遊覽形成完美對比——探索地下馬泰拉",
+      "獨特氛圍：寂靜、水面倒影、宏偉拱頂"
+    ],
+    "cons": [
+      "參觀時間較短（約15分鐘），部分遊客可能期待更長",
+      "無法預約：只能現場購票",
+      "旅遊旺季可能需要排隊",
+      "行動不便者無法進入（需走樓梯進入蓄水池）"
+    ],
+    "verdict": "絕對值得。花€3和15分鐘時間，Palombaro Lungo是馬泰拉性價比最高的體驗之一。進入地下「水之大教堂」的感受將令您終生難忘。"
+  },
+  "duration": {
+    "title": "需要多少時間",
+    "description": "以下是規劃Palombaro Lungo參觀時間的建議：",
+    "items": [
+      {
+        "heading": "蓄水池參觀",
+        "text": "內部參觀約需15分鐘。這是沿水面上方金屬步道的自助導覽路線。提供7種語言的資訊手冊（義、英、法、西、德、波、葡）。"
+      },
+      {
+        "heading": "等候時間",
+        "text": "無法預約，僅限現場購票。淡季等候時間較短（5-10分鐘）。旺季（夏季、節假日）預計可能需要排隊20-30分鐘。"
+      },
+      {
+        "heading": "建議總時間",
+        "text": "總計預留約30-45分鐘，包括等候、購票和參觀。可完美融入半天的石窟民居行程。"
+      },
+      {
+        "heading": "最佳時間",
+        "text": "開放時間：每天10:00-13:00和15:00-18:00。為避免人潮，建議選擇上午開門時（10:00）或下午剛開放時（15:00）前往。"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "照片集",
+    "captions": [
+      "Palombaro Lungo燈光照射下的石灰岩拱頂",
+      "懸於蓄水池水面上方的金屬步道",
+      "馬泰拉岩石中雕刻的拱門與石柱",
+      "地下蓄水池底部的水面倒影",
+      "水之大教堂的迷人氛圍",
+      "拱頂與陶片灰泥牆面的細節"
+    ]
+  },
+  "reviews": {
+    "title": "真實遊客評價",
+    "declaration": "評分來自Google Maps，最近更新於2026年。僅顯示經過驗證的高評分評論。如需查看所有評論，請點擊下方連結。",
+    "seeMore": "在Google Maps上查看更多評論",
+    "items": [
+      {
+        "name": "Marco B.",
+        "date": "2026年2月",
+        "stars": 5,
+        "text": "令人難以置信。走下維托里奧·維內托廣場進入這座巨大的蓄水池，是一種獨特的感受。高聳的拱頂和水面倒影營造出魔幻般的氛圍。€3絕對不容錯過。"
+      },
+      {
+        "name": "Giulia R.",
+        "date": "2026年1月",
+        "stars": 5,
+        "text": "人們稱它為水之大教堂，這個名字再貼切不過。寂靜、宏偉的拱頂、底部的水面……一個超越時間的地方。參觀時間雖短但非常震撼。"
+      },
+      {
+        "name": "François D.",
+        "date": "2025年12月",
+        "stars": 4,
+        "text": "馬泰拉主廣場下一個迷人的地方。蓄水池的規模令人驚嘆。參觀時間雖短（15分鐘），但€3的票價非常合理。"
+      },
+      {
+        "name": "Elena M.",
+        "date": "2025年11月",
+        "stars": 4,
+        "text": "氣氛十足，非常有趣。唯一的缺點是參觀時間真的很短，大約15分鐘。但考慮到票價和地點的獨特性，絕對值得推薦。"
+      },
+      {
+        "name": "Thomas W.",
+        "date": "2025年10月",
+        "stars": 5,
+        "text": "隱藏在主廣場下方的巨大地下蓄水池令人驚嘆。規模難以置信——500萬公升的儲水量！馬泰拉必訪景點。"
+      },
+      {
+        "name": "Alessandra P.",
+        "date": "2025年9月",
+        "stars": 5,
+        "text": "朋友來馬泰拉時我們總會帶他們來這裡。驚喜效果百分百：沒有人會想到廣場下藏著一座地下大教堂。€3花得太值了。"
+      },
+      {
+        "name": "Hiroshi T.",
+        "date": "2025年8月",
+        "stars": 5,
+        "text": "太驚喜了！即使在八月盛夏裡面也很涼爽，是酷暑中的一份清涼。金屬步道可以輕鬆地欣賞全貌。允許拍照。"
+      },
+      {
+        "name": "Sara L.",
+        "date": "2025年7月",
+        "stars": 4,
+        "text": "迷人而快速的體驗。非常適合與石窟民居散步結合。唯一的問題是無法預約，夏天需要排一會兒隊。"
+      }
+    ]
+  },
+  "tips": {
+    "title": "遊客實用建議",
+    "items": [
+      {
+        "number": 1,
+        "title": "內部溫度",
+        "text": "蓄水池內部溫度常年涼爽（約15°C），即使盛夏也是如此。請攜帶一件薄外套，特別是從炎熱的室外進入時。"
+      },
+      {
+        "number": 2,
+        "title": "門票與付款",
+        "text": "門票（成人€3，學生團體€1.50，未成年人免費）僅限現場購買，無法預約。接受現金和信用卡。"
+      },
+      {
+        "number": 3,
+        "title": "無障礙設施",
+        "text": "參觀需要走樓梯才能到達金屬步道。遺憾的是，輪椅使用者或嚴重行動不便者無法進入。"
+      },
+      {
+        "number": 4,
+        "title": "建議到訪時間",
+        "text": "每天開放時間為10:00-13:00和15:00-18:00。為避免排隊，建議在開門時（10:00）或下午剛重新開放時（15:00）到訪。"
+      },
+      {
+        "number": 5,
+        "title": "攝影建議",
+        "text": "允許拍照。照明氣氛很好但光線較暗：具有夜間模式的現代手機即可勝任。無需閃光燈或三腳架。"
+      },
+      {
+        "number": 6,
+        "title": "周邊景點",
+        "text": "參觀後可探索馬泰拉石窟民居（UNESCO）、大教堂、獨居巷穴居之家、聖彼得洞穴教堂、MUSMA博物館和穆爾賈提莫內觀景台，均可步行到達。"
+      }
+    ]
+  },
+  "map": {
+    "title": "如何前往",
+    "address": "Piazza Vittorio Veneto, 75100 Matera MT, 義大利",
+    "openMaps": "在Google Maps上開啟"
+  },
+  "sources": {
+    "title": "資料來源與參考",
+    "description": "本指南中的資訊來自以下來源：",
+    "items": [
+      "位置資訊、評分及評論：Google Maps",
+      "歷史與實用資訊：www.palombarolungo.it",
+      "照片：Unsplash（免費商業及非商業使用授權）",
+      "編輯內容：palombarolungo.com 編輯部"
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Palombaro Lungo · 版權所有。",
+    "support": "技術支援",
+    "privacyPolicy": "隱私政策",
+    "termsOfService": "服務條款",
+    "cookieSettings": "Cookie設定",
+    "disclaimer": "本網站是一個獨立的第三方旅遊資訊指南，旨在為遊客提供客觀的歷史背景與遊覽建議，與 Palombaro Lungo 的官方管理機構無關。如需購買官方門票，請訪問官方渠道。",
+    "disclaimerEn": "This website is an independent third-party tourist information guide, designed to provide visitors with objective historical background and practical travel advice. It is not affiliated with or endorsed by the official management of Palombaro Lungo. For official tickets, please visit official channels.",
+    "priceNote": "* 所列價格僅供參考，請以官方實際價格為準。"
+  },
+  "privacyPolicy": {
+    "title": "隱私政策",
+    "lastUpdated": "最後更新：2026年3月",
+    "content": [
+      {
+        "heading": "資料收集",
+        "text": "palombarolungo.com是一個專門介紹馬泰拉Palombaro Lungo的靜態資訊網站。我們不直接收集個人資料。我們使用Google Maps嵌入功能顯示地圖，該服務可能根據其隱私政策收集資料。"
+      },
+      {
+        "heading": "Cookie",
+        "text": "我們僅使用網站運作所需的技術性Cookie，例如通過瀏覽器localStorage保存的主題偏好（淺色/深色）和語言選擇。"
+      },
+      {
+        "heading": "第三方服務",
+        "text": "本網站整合了Google Maps內容和Unsplash圖片。這些服務可能根據各自的隱私政策收集資料。建議您查閱相關政策。"
+      },
+      {
+        "heading": "聯繫方式",
+        "text": "如有隱私相關問題，請聯繫：claritleonelmnicol@gmail.com"
+      }
+    ]
+  },
+  "termsOfService": {
+    "title": "服務條款",
+    "lastUpdated": "最後更新：2026年3月",
+    "content": [
+      {
+        "heading": "條款接受",
+        "text": "使用palombarolungo.com即表示您接受本服務條款。本網站提供關於Palombaro Lungo的旅遊資訊，僅供參考之用。"
+      },
+      {
+        "heading": "內容",
+        "text": "本網站提供的資訊按原樣提供，不保證其完整性或準確性。評分和評論來自Google Maps，可能不反映當前情況。"
+      },
+      {
+        "heading": "智慧財產權",
+        "text": "編輯內容歸palombarolungo.com所有。照片由Unsplash提供，採用免費授權。地圖資料歸Google所有。"
+      },
+      {
+        "heading": "免責聲明",
+        "text": "palombarolungo.com對因使用本網站資訊而造成的任何損害不承擔責任。請在造訪前務必核實相關資訊。"
+      },
+      {
+        "heading": "聯繫方式",
+        "text": "如有服務條款相關問題：claritleonelmnicol@gmail.com"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie設定",
+    "lastUpdated": "最後更新：2026年3月",
+    "content": [
+      {
+        "heading": "使用的Cookie",
+        "text": "palombarolungo.com僅通過瀏覽器localStorage使用技術性和偏好Cookie。我們不使用分析、廣告追蹤或第三方Cookie。"
+      },
+      {
+        "heading": "保存的偏好設定",
+        "text": "在您的瀏覽器中本地保存的唯一偏好是：主題選擇（淺色/深色）和偏好語言。這些資料不會傳送到外部伺服器。"
+      },
+      {
+        "heading": "如何管理Cookie",
+        "text": "您可以隨時從瀏覽器設定中的網站資料和localStorage部分刪除已保存的資料。"
+      },
+      {
+        "heading": "聯繫方式",
+        "text": "如有Cookie設定相關問題：claritleonelmnicol@gmail.com"
+      }
+    ]
+  }
+}

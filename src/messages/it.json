@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "title": "Palombaro Lungo — La Cattedrale d'Acqua di Matera",
+    "description": "Scopri il Palombaro Lungo, una delle più grandi cisterne sotterranee d'Italia, sotto Piazza Vittorio Veneto a Matera. Guida completa per visitatori con orari, biglietti e consigli."
+  },
+  "header": {
+    "siteTitle": "Palombaro Lungo",
+    "lightMode": "Chiaro",
+    "darkMode": "Scuro"
+  },
+  "hero": {
+    "title": "Palombaro Lungo",
+    "subtitle": "La cattedrale d'acqua sotterranea nel cuore di Matera",
+    "rating": "4.5/5",
+    "reviewCount": "11.880 recensioni",
+    "hours": "Ogni giorno 10:00–13:00 / 15:00–18:00",
+    "ticket": "€3 adulti · Gratuito minori",
+    "openMaps": "Apri su Google Maps",
+    "tags": ["Cisterna", "Sotterraneo", "UNESCO", "Sassi", "Acqua", "Cattedrale d'Acqua"]
+  },
+  "introduction": {
+    "title": "Scopri il Palombaro Lungo",
+    "description": "Il Palombaro Lungo è una delle più grandi cisterne sotterranee d'Italia, nascosta sotto Piazza Vittorio Veneto nel cuore di Matera. Soprannominata \"cattedrale d'acqua\" per le sue maestose volte che ricordano una navata di chiesa, questa straordinaria opera di ingegneria idraulica raccoglieva acqua piovana e sorgiva attraverso un sistema di canali, fornendo acqua potabile alla città per secoli.",
+    "highlights": [
+      "Una delle più grandi cisterne sotterranee d'Italia con capacità di circa 5 milioni di litri",
+      "Profondità di 15-18 metri con maestose volte in pietra e colonne scolpite nel calcare",
+      "Riscoperta nel 1991 durante i lavori di ristrutturazione di Piazza Vittorio Veneto",
+      "Parte del patrimonio che ha contribuito all'iscrizione UNESCO dei Sassi di Matera (1993)",
+      "Valutazione 4.5 su 5 con circa 11.880 recensioni su Google Maps"
+    ]
+  },
+  "science": {
+    "title": "Cos'è il Palombaro Lungo",
+    "description": "Il Palombaro Lungo è un capolavoro di ingegneria idraulica scavato nel calcare sotto Matera. La parola \"palombaro\" deriva dal latino e indica una grande cisterna per la raccolta delle acque.",
+    "items": [
+      {
+        "heading": "Sistema di raccolta idrica",
+        "text": "L'acqua veniva raccolta attraverso un elaborato sistema di canali che convogliavano sia l'acqua piovana che quella di sorgente. I canali attraversavano la città sotterranea, alimentando la cisterna in modo continuo."
+      },
+      {
+        "heading": "La tecnica del cocciopesto",
+        "text": "Le pareti interne sono rivestite con il cocciopesto, un intonaco impermeabile a base di frammenti di terracotta e calce. Questa tecnica, utilizzata fin dall'epoca romana, garantiva la perfetta impermeabilizzazione e la conservazione dell'acqua potabile."
+      },
+      {
+        "heading": "Meraviglia ingegneristica",
+        "text": "Con una capacità di circa 5 milioni di litri e una profondità di 15-18 metri, il Palombaro Lungo rappresenta un'opera di ingegneria straordinaria. Le volte a botte e le colonne in calcare distribuiscono il peso in modo strutturalmente perfetto, resistendo per secoli."
+      },
+      {
+        "heading": "Architettura sotterranea",
+        "text": "L'interno si sviluppa per circa 50 metri di lunghezza con alte volte a sesto acuto che creano un'atmosfera solenne, paragonabile a quella di una cattedrale. Le arcate e le colonne in pietra sono scolpite direttamente nella roccia calcarea."
+      }
+    ]
+  },
+  "history": {
+    "title": "Storia e Patrimonio",
+    "description": "La storia del Palombaro Lungo è intrecciata con quella di Matera e del suo ingegnoso sistema di gestione delle acque, sviluppato nei secoli per sostenere la vita in una delle città più antiche del mondo.",
+    "timeline": [
+      {
+        "year": "XIII secolo",
+        "text": "Le prime strutture di raccolta idrica risalgono al 1200, quando Matera inizia a sviluppare un sistema sotterraneo per la gestione delle acque."
+      },
+      {
+        "year": "XVI secolo",
+        "text": "Inizio della costruzione del Palombaro Lungo nella sua forma attuale, come grande cisterna centralizzata sotto quella che diventerà Piazza Vittorio Veneto."
+      },
+      {
+        "year": "1832",
+        "text": "Grande ampliamento della cisterna per soddisfare le esigenze di una popolazione in crescita. La capacità viene portata a circa 5 milioni di litri."
+      },
+      {
+        "year": "Anni 1880",
+        "text": "Ulteriore espansione e perfezionamento del sistema di raccolta, con nuovi canali e miglioramenti strutturali alle volte."
+      },
+      {
+        "year": "1920",
+        "text": "Il completamento dell'Acquedotto Pugliese rende la cisterna obsoleta. L'acqua corrente arriva nelle case e il Palombaro Lungo cade nell'oblio."
+      },
+      {
+        "year": "1991",
+        "text": "Riscoperta straordinaria durante i lavori di ristrutturazione di Piazza Vittorio Veneto. La cisterna viene ritrovata intatta, con ancora acqua al suo interno."
+      },
+      {
+        "year": "1993",
+        "text": "I Sassi di Matera vengono iscritti nella lista del Patrimonio Mondiale UNESCO. Il Palombaro Lungo contribuisce a testimoniare l'ingegno del sistema idrico materano."
+      }
+    ]
+  },
+  "interior": {
+    "title": "Cosa si Vede all'Interno",
+    "description": "Scendere nel Palombaro Lungo è un'esperienza che toglie il fiato. Ecco cosa aspettarsi dalla visita:",
+    "items": [
+      {
+        "heading": "Le volte maestose",
+        "text": "Alte volte a sesto acuto in calcare si innalzano sopra la vostra testa, creando un effetto \"cattedrale\" che giustifica il soprannome del sito. Le arcate si susseguono lungo tutto lo sviluppo della cisterna."
+      },
+      {
+        "heading": "Colonne e archi in pietra",
+        "text": "Possenti colonne scolpite nella roccia calcarea sostengono le volte. Ogni colonna è stata ricavata direttamente dalla roccia, testimoniando l'abilità degli scalpellini materani."
+      },
+      {
+        "heading": "L'acqua e i riflessi",
+        "text": "Sul fondo della cisterna è ancora presente l'acqua, che crea suggestivi riflessi sotto l'illuminazione atmosferica. La superficie immobile amplifica il silenzio e la solennità del luogo."
+      },
+      {
+        "heading": "Passerelle metalliche",
+        "text": "I visitatori percorrono passerelle metalliche sospese sopra l'acqua, che permettono di ammirare la cisterna da diverse angolazioni in totale sicurezza."
+      },
+      {
+        "heading": "Illuminazione scenografica",
+        "text": "Un sistema di illuminazione accuratamente studiato esalta la texture del calcare, le volte e i riflessi sull'acqua, creando un'atmosfera unica e suggestiva."
+      },
+      {
+        "heading": "Le pareti in cocciopesto",
+        "text": "Osservando da vicino le pareti, si nota il rivestimento in cocciopesto, l'intonaco rossastro a base di terracotta che ha mantenuto impermeabile la cisterna per secoli."
+      }
+    ]
+  },
+  "worthIt": {
+    "title": "Vale la Pena Visitarlo?",
+    "description": "Una valutazione onesta per aiutarvi a decidere se includere il Palombaro Lungo nel vostro itinerario a Matera.",
+    "pros": [
+      "Esperienza unica e suggestiva — pochi luoghi al mondo offrono qualcosa di simile",
+      "Prezzo imbattibile: soli €3 per un'esperienza memorabile, gratuito per i minori",
+      "Posizione centralissima sotto Piazza Vittorio Veneto, facilmente raggiungibile",
+      "Visita breve (~15 minuti) che si inserisce facilmente in qualsiasi itinerario",
+      "Perfetto contrasto con la visita ai Sassi in superficie — scoprite la Matera sotterranea",
+      "Atmosfera unica: silenzio, riflessi d'acqua, volte imponenti"
+    ],
+    "cons": [
+      "La visita è piuttosto breve (circa 15 minuti), alcuni visitatori si aspettano di più",
+      "Non è possibile prenotare: i biglietti si acquistano solo alla porta",
+      "Potrebbe esserci coda nei periodi di alta stagione turistica",
+      "Non accessibile a persone con mobilità ridotta (scale per scendere nella cisterna)"
+    ],
+    "verdict": "Assolutamente sì. Per €3 e 15 minuti del vostro tempo, il Palombaro Lungo è una delle esperienze con il miglior rapporto qualità-prezzo di Matera. La sensazione di entrare in una \"cattedrale d'acqua\" sotterranea è qualcosa che non dimenticherete."
+  },
+  "duration": {
+    "title": "Quanto Tempo Serve",
+    "description": "Ecco come pianificare il tempo per la vostra visita al Palombaro Lungo:",
+    "items": [
+      {
+        "heading": "Visita della cisterna",
+        "text": "La visita interna dura circa 15 minuti. È un percorso autoguidato lungo le passerelle metalliche che si snodano sopra l'acqua. È disponibile un opuscolo informativo in 7 lingue (IT, EN, FR, ES, DE, PL, PT)."
+      },
+      {
+        "heading": "Tempo di attesa",
+        "text": "Non è possibile prenotare: i biglietti si acquistano esclusivamente in loco. In bassa stagione l'attesa è minima (5-10 minuti). In alta stagione (estate, festività) prevedete fino a 20-30 minuti di coda."
+      },
+      {
+        "heading": "Tempo totale consigliato",
+        "text": "Prevedete circa 30-45 minuti in totale, inclusa l'eventuale attesa, l'acquisto del biglietto e la visita. Si integra perfettamente in una mezza giornata dedicata ai Sassi."
+      },
+      {
+        "heading": "Quando andare",
+        "text": "Orari di apertura: ogni giorno 10:00-13:00 e 15:00-18:00. Per evitare la folla, consigliamo la prima mattina (10:00) o il primo pomeriggio (15:00)."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galleria Fotografica",
+    "captions": [
+      "Le volte in calcare del Palombaro Lungo illuminate",
+      "Passerelle metalliche sospese sopra l'acqua della cisterna",
+      "Archi e colonne scolpiti nella roccia di Matera",
+      "Riflessi d'acqua sul fondo della cisterna sotterranea",
+      "L'atmosfera suggestiva della cattedrale d'acqua",
+      "Dettaglio delle volte e del rivestimento in cocciopesto"
+    ]
+  },
+  "reviews": {
+    "title": "Recensioni dei visitatori reali",
+    "declaration": "Le valutazioni provengono da Google Maps, aggiornate al 2026. Vengono mostrate solo le recensioni verificate con valutazione elevata. Per tutte le recensioni, visita il link sottostante.",
+    "seeMore": "Vedi più recensioni su Google Maps",
+    "items": [
+      {
+        "name": "Marco B.",
+        "date": "Febbraio 2026",
+        "stars": 5,
+        "text": "Incredibile. Scendere sotto Piazza Vittorio Veneto e trovarsi in questa enorme cisterna è un'emozione unica. Le volte altissime e i riflessi sull'acqua creano un'atmosfera magica. Per €3 è imperdibile."
+      },
+      {
+        "name": "Giulia R.",
+        "date": "Gennaio 2026",
+        "stars": 5,
+        "text": "La chiamano cattedrale d'acqua e il nome è perfetto. Il silenzio, le volte imponenti, l'acqua sul fondo... un luogo fuori dal tempo. La visita è breve ma intensa."
+      },
+      {
+        "name": "François D.",
+        "date": "Dicembre 2025",
+        "stars": 4,
+        "text": "Un lieu fascinant sous la place principale de Matera. L'échelle de cette citerne est impressionnante. La visite est courte (15 minutes) mais le prix de 3€ est très raisonnable."
+      },
+      {
+        "name": "Elena M.",
+        "date": "Novembre 2025",
+        "stars": 4,
+        "text": "Suggestivo e interessante. L'unica pecca è che la visita dura davvero poco, circa 15 minuti. Ma per il prezzo e per la particolarità del luogo, lo consiglio assolutamente."
+      },
+      {
+        "name": "Thomas W.",
+        "date": "Ottobre 2025",
+        "stars": 5,
+        "text": "Hidden beneath the main square, this massive underground cistern is jaw-dropping. The scale is hard to believe — 5 million liters of water capacity! A must-see in Matera."
+      },
+      {
+        "name": "Alessandra P.",
+        "date": "Settembre 2025",
+        "stars": 5,
+        "text": "Portiamo sempre gli amici qui quando vengono a Matera. L'effetto sorpresa è garantito: nessuno si aspetta di trovare una cattedrale sotterranea sotto la piazza. €3 spesi benissimo."
+      },
+      {
+        "name": "Hiroshi T.",
+        "date": "Agosto 2025",
+        "stars": 5,
+        "text": "Bellissima sorpresa! Dentro fa fresco anche in pieno agosto, un sollievo dal caldo estivo. Le passerelle metalliche permettono di vedere tutto comodamente. Fotografie consentite."
+      },
+      {
+        "name": "Sara L.",
+        "date": "Luglio 2025",
+        "stars": 4,
+        "text": "Esperienza affascinante e veloce. Perfetta da combinare con la passeggiata nei Sassi. L'unico problema è che non si può prenotare e in estate c'è un po' di coda."
+      }
+    ]
+  },
+  "tips": {
+    "title": "Consigli per i Visitatori",
+    "items": [
+      {
+        "number": 1,
+        "title": "Temperatura interna",
+        "text": "All'interno della cisterna la temperatura è costantemente fresca (circa 15°C), anche in piena estate. Portate un leggero strato aggiuntivo, soprattutto se venite dal caldo esterno."
+      },
+      {
+        "number": 2,
+        "title": "Biglietti e pagamento",
+        "text": "I biglietti (€3 adulti, €1.50 gruppi scolastici, gratuito per minori) si acquistano solo alla porta. Non è possibile prenotare. Accettato contante e carte."
+      },
+      {
+        "number": 3,
+        "title": "Accessibilità",
+        "text": "La visita richiede di scendere scale per raggiungere le passerelle metalliche. Purtroppo non è accessibile a persone in sedia a rotelle o con gravi difficoltà motorie."
+      },
+      {
+        "number": 4,
+        "title": "Orario consigliato",
+        "text": "Aperto ogni giorno 10:00-13:00 e 15:00-18:00. Per evitare la coda, arrivate all'apertura (10:00) o subito dopo la riapertura pomeridiana (15:00)."
+      },
+      {
+        "number": 5,
+        "title": "Fotografia",
+        "text": "Le fotografie sono consentite. L'illuminazione è scenografica ma scarsa: un cellulare moderno con modalità notturna è sufficiente. Non servono flash o treppiedi."
+      },
+      {
+        "number": 6,
+        "title": "Nelle vicinanze",
+        "text": "Dopo la visita, esplorate i Sassi di Matera (UNESCO), la Cattedrale, Casa Grotta di Vico Solitario, il MUSMA e la Chiesa di San Pietro Caveoso, tutti raggiungibili a piedi."
+      }
+    ]
+  },
+  "map": {
+    "title": "Come Raggiungerci",
+    "address": "Piazza Vittorio Veneto, 75100 Matera MT, Italia",
+    "openMaps": "Apri su Google Maps"
+  },
+  "sources": {
+    "title": "Dati e Riferimenti",
+    "description": "Le informazioni presenti in questa guida provengono dalle seguenti fonti:",
+    "items": [
+      "Dati sulla posizione, valutazioni e recensioni: Google Maps",
+      "Informazioni storiche e pratiche: www.palombarolungo.it",
+      "Fotografie: Unsplash (licenza gratuita per uso commerciale e non commerciale)",
+      "Contenuti editoriali: redazione palombarolungo.com"
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Palombaro Lungo · Tutti i diritti riservati.",
+    "support": "Supporto tecnico",
+    "privacyPolicy": "Informativa sulla privacy",
+    "termsOfService": "Termini di servizio",
+    "cookieSettings": "Impostazioni cookie",
+    "disclaimer": "Questo sito è una guida turistica indipendente di terze parti, creata per fornire ai visitatori informazioni storiche obiettive e consigli pratici per la visita. Non è affiliato né collegato all'ente ufficiale di gestione del Palombaro Lungo. Per i biglietti ufficiali, si prega di consultare i canali ufficiali.",
+    "disclaimerEn": "This website is an independent third-party tourist information guide, designed to provide visitors with objective historical background and practical travel advice. It is not affiliated with or endorsed by the official management of Palombaro Lungo. For official tickets, please visit official channels.",
+    "priceNote": "* I prezzi indicati sono puramente indicativi. Consultare il sito ufficiale per i prezzi aggiornati."
+  },
+  "privacyPolicy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
+    "content": [
+      {
+        "heading": "Raccolta dei dati",
+        "text": "palombarolungo.com è un sito statico informativo dedicato al Palombaro Lungo di Matera. Non raccogliamo dati personali direttamente. Utilizziamo Google Maps embed per la visualizzazione della mappa, il quale potrebbe raccogliere dati secondo la propria informativa sulla privacy."
+      },
+      {
+        "heading": "Cookie",
+        "text": "Utilizziamo esclusivamente cookie tecnici necessari al funzionamento del sito, come la preferenza del tema (chiaro/scuro) e della lingua, salvati tramite localStorage del browser."
+      },
+      {
+        "heading": "Servizi di terze parti",
+        "text": "Il sito integra contenuti di Google Maps e immagini da Unsplash. Questi servizi possono raccogliere dati secondo le proprie politiche sulla privacy. Vi invitiamo a consultare le rispettive informative."
+      },
+      {
+        "heading": "Contatti",
+        "text": "Per domande relative alla privacy, contattate: claritleonelmnicol@gmail.com"
+      }
+    ]
+  },
+  "termsOfService": {
+    "title": "Termini di Servizio",
+    "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
+    "content": [
+      {
+        "heading": "Accettazione dei termini",
+        "text": "Utilizzando palombarolungo.com, accettate i presenti termini di servizio. Il sito fornisce informazioni turistiche sul Palombaro Lungo a scopo puramente informativo."
+      },
+      {
+        "heading": "Contenuti",
+        "text": "Le informazioni presenti sul sito sono fornite così come sono, senza garanzie di completezza o accuratezza. Le valutazioni e le recensioni provengono da Google Maps e potrebbero non riflettere la situazione attuale."
+      },
+      {
+        "heading": "Proprietà intellettuale",
+        "text": "I contenuti editoriali sono di proprietà di palombarolungo.com. Le fotografie sono fornite da Unsplash sotto licenza libera. I dati delle mappe appartengono a Google."
+      },
+      {
+        "heading": "Limitazione di responsabilità",
+        "text": "palombarolungo.com non è responsabile per eventuali danni derivanti dall'uso delle informazioni presenti sul sito. Verificate sempre le informazioni prima della visita."
+      },
+      {
+        "heading": "Contatti",
+        "text": "Per domande sui termini di servizio: claritleonelmnicol@gmail.com"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Impostazioni Cookie",
+    "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
+    "content": [
+      {
+        "heading": "Cookie utilizzati",
+        "text": "palombarolungo.com utilizza esclusivamente cookie tecnici e di preferenza tramite localStorage del browser. Non utilizziamo cookie di profilazione o di tracciamento pubblicitario."
+      },
+      {
+        "heading": "Preferenze salvate",
+        "text": "Le uniche preferenze salvate localmente nel vostro browser sono: la scelta del tema (chiaro/scuro) e la lingua preferita. Questi dati non vengono trasmessi a server esterni."
+      },
+      {
+        "heading": "Come gestire i cookie",
+        "text": "Potete cancellare i dati salvati in qualsiasi momento dalle impostazioni del vostro browser, nella sezione dedicata ai dati dei siti web e localStorage."
+      },
+      {
+        "heading": "Contatti",
+        "text": "Per domande sulle impostazioni cookie: claritleonelmnicol@gmail.com"
+      }
+    ]
+  }
+}
