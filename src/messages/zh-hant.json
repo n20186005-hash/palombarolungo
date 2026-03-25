@@ -158,7 +158,7 @@
   },
   "gallery": {
     "title": "照片集",
-    "googleMapsDesc": "說明來自Google Maps，最近更新於2026年。如需查看所有圖片，請點擊下方連結",
+    "googleMapsDesc": "說明來自Google Maps，最近更新於2026年。如需查看所有圖片，請點擊此處",
     "googleMapsLink": "https://maps.app.goo.gl/qMAQj2tjR1tZZrdS7",
     "captions": [
       "Palombaro Lungo燈光照射下的石灰岩拱頂",
@@ -282,7 +282,8 @@
     "cookieSettings": "Cookie設定",
     "disclaimer": "本網站是一個獨立的第三方旅遊資訊指南，旨在為遊客提供客觀的歷史背景與遊覽建議，與 Palombaro Lungo 的官方管理機構無關。如需購買官方門票，請訪問官方渠道。",
     "disclaimerEn": "This website is an independent third-party tourist information guide, designed to provide visitors with objective historical background and practical travel advice. It is not affiliated with or endorsed by the official management of Palombaro Lungo. For official tickets, please visit official channels.",
-    "priceNote": "* 所列價格僅供參考，請以官方實際價格為準。"
+    "priceNote": "* 所列價格僅供參考，請以官方實際價格為準。",
+    "sourceInfo": "信息提取自公共资源（Matera旅游局/当地旅游局和维基百科），并结合了谷歌地图的基本信息。"
   },
   "privacyPolicy": {
     "title": "隱私政策",

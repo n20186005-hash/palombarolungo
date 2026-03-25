@@ -19,6 +19,9 @@ export default function Footer({ locale }: { locale: string }) {
       >
         <p>{t('disclaimer')}</p>
         <p className="italic">{t('disclaimerEn')}</p>
+        <p className="mt-4 pt-2 border-t" style={{ borderColor: 'var(--color-border)' }}>
+          {t('sourceInfo')}
+        </p>
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">

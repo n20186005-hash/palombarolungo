@@ -158,7 +158,7 @@
   },
   "gallery": {
     "title": "Galleria Fotografica",
-    "googleMapsDesc": "Descrizione da Google Maps, ultimo aggiornamento 2026. Per vedere tutte le foto, clicca sul link sottostante",
+    "googleMapsDesc": "Descrizione da Google Maps, ultimo aggiornamento 2026. Per vedere tutte le foto, clicca qui",
     "googleMapsLink": "https://maps.app.goo.gl/qMAQj2tjR1tZZrdS7",
     "captions": [
       "Le volte in calcare del Palombaro Lungo illuminate",
@@ -280,9 +280,10 @@
     "privacyPolicy": "Informativa sulla privacy",
     "termsOfService": "Termini di servizio",
     "cookieSettings": "Impostazioni cookie",
-    "disclaimer": "Questo sito è una guida turistica indipendente di terze parti, creata per fornire ai visitatori informazioni storiche obiettive e consigli pratici per la visita. Non è affiliato né collegato all'ente ufficiale di gestione del Palombaro Lungo. Per i biglietti ufficiali, si prega di consultare i canali ufficiali.",
+    "disclaimer": "Questo sito web è una guida informativa turistica di terze parti indipendente, progettata per fornire ai visitatori un contesto storico obiettivo e consigli pratici di viaggio, e non è affiliato con l'organizzazione ufficiale di gestione del Palombaro Lungo. Per l'acquisto di biglietti ufficiali, si prega di visitare i canali ufficiali.",
     "disclaimerEn": "This website is an independent third-party tourist information guide, designed to provide visitors with objective historical background and practical travel advice. It is not affiliated with or endorsed by the official management of Palombaro Lungo. For official tickets, please visit official channels.",
-    "priceNote": "* I prezzi indicati sono puramente indicativi. Consultare il sito ufficiale per i prezzi aggiornati."
+    "priceNote": "* I prezzi indicati sono solo di riferimento, fare riferimento al prezzo ufficiale effettivo.",
+    "sourceInfo": "Informazioni estratte da risorse pubbliche (Ufficio del Turismo di Matera/enti locali del turismo e Wikipedia), combinate con informazioni di base da Google Maps."
   },
   "privacyPolicy": {
     "title": "Informativa sulla Privacy",
