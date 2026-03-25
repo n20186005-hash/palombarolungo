@@ -11,7 +11,17 @@ export default function Hero({ locale }: { locale: string }) {
   const tags: string[] = t.raw('tags');
 
   return (
-    <section className="relative">
+    <section className="relative overflow-hidden">
+      <div 
+        className="absolute inset-0 z-0" 
+        style={{ 
+          backgroundImage: 'url("/gallery/images (15).jpg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          opacity: 0.3
+        }} 
+      />
+      
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4" style={{ backgroundColor: 'var(--color-bg)', borderBottom: '1px solid var(--color-border)' }}>
         <span className="text-sm font-semibold tracking-tight" style={{ color: 'var(--color-text-primary)' }}>
           {th('siteTitle')}
@@ -22,7 +32,7 @@ export default function Hero({ locale }: { locale: string }) {
         </div>
       </header>
 
-      <div className="section-container pt-32 pb-16 md:pt-40 md:pb-24 text-center">
+      <div className="section-container relative z-10 pt-32 pb-16 md:pt-40 md:pb-24 text-center">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4" style={{ color: 'var(--color-text-primary)' }}>
           {t('title')}
         </h1>

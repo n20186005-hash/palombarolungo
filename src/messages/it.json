@@ -158,6 +158,8 @@
   },
   "gallery": {
     "title": "Galleria Fotografica",
+    "googleMapsDesc": "Descrizione da Google Maps, ultimo aggiornamento 2026. Per vedere tutte le foto, clicca sul link sottostante",
+    "googleMapsLink": "https://maps.app.goo.gl/qMAQj2tjR1tZZrdS7",
     "captions": [
       "Le volte in calcare del Palombaro Lungo illuminate",
       "Passerelle metalliche sospese sopra l'acqua della cisterna",

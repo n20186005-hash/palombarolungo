@@ -158,6 +158,8 @@
   },
   "gallery": {
     "title": "照片集",
+    "googleMapsDesc": "說明來自Google Maps，最近更新於2026年。如需查看所有圖片，請點擊下方連結",
+    "googleMapsLink": "https://maps.app.goo.gl/qMAQj2tjR1tZZrdS7",
     "captions": [
       "Palombaro Lungo燈光照射下的石灰岩拱頂",
       "懸於蓄水池水面上方的金屬步道",
