@@ -15,16 +15,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   unstable_setRequestLocale(locale);
 
+  // Default SEO configuration for the layout
+  // We'll let specific pages override canonical and alternates where necessary,
+  // but we can set a base layout alternate configuration
   return {
     title: 'Palombaro Lungo',
     description: 'Underground water cistern beneath Piazza Vittorio Veneto, Matera, Italy',
-    alternates: {
-      canonical: `https://palombarolungo.com/${locale}`,
-      languages: {
-        'it': 'https://palombarolungo.com/it',
-        'zh-Hant': 'https://palombarolungo.com/zh-hant',
-      },
-    },
   };
 }
 
@@ -35,9 +31,6 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
   return (
     <html lang={locale === 'zh-hant' ? 'zh-Hant' : locale} suppressHydrationWarning>
       <head>
-        <link rel="alternate" hrefLang="it" href="https://palombarolungo.com/it" />
-        <link rel="alternate" hrefLang="zh-Hant" href="https://palombarolungo.com/zh-hant" />
-        <link rel="alternate" hrefLang="x-default" href="https://palombarolungo.com/it" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
