@@ -15,16 +15,16 @@ import Sources from '@/components/Sources';
 import Footer from '@/components/Footer';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const currentUrl = `https://palombarolungo.com/${locale}`;
+  const currentUrl = `https://palombarolungo.com/${locale}/`;
   
   return {
     alternates: {
       canonical: currentUrl,
       languages: {
-        'en': 'https://palombarolungo.com/en',
-        'it': 'https://palombarolungo.com/it',
-        'zh-Hant': 'https://palombarolungo.com/zh-hant',
-        'x-default': 'https://palombarolungo.com/en',
+        'en': 'https://palombarolungo.com/en/',
+        'it': 'https://palombarolungo.com/it/',
+        'zh-Hant': 'https://palombarolungo.com/zh-hant/',
+        'x-default': 'https://palombarolungo.com/en/',
       },
     },
   };
