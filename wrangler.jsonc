@@ -1,0 +1,13 @@
+{
+  // Static-assets Worker: the site is a fully static Next.js `output: 'export'` build.
+  // Serving ./out directly bypasses wrangler's Next.js framework auto-config
+  // (which requires Next >= 14.2.35) and deploys the prerendered HTML as-is.
+  "name": "palombarolungo",
+  "main": "./worker.ts",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page"
+  }
+}
