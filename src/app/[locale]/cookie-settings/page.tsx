@@ -1,18 +1,22 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CookieSettingsClient from './CookieSettingsClient';
+import { absoluteUrl } from '@/lib/site';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const currentUrl = `https://palombarolungo.com/${locale}/cookie-settings/`;
+  const currentUrl = absoluteUrl(locale === 'it' ? '/it/cookie-settings/' : '/zh-hant/cookie-settings/');
   
   return {
+    robots: {
+      index: false,
+      follow: true,
+    },
     alternates: {
       canonical: currentUrl,
       languages: {
-        'en': 'https://palombarolungo.com/en/cookie-settings/',
-        'it': 'https://palombarolungo.com/it/cookie-settings/',
-        'zh-Hant': 'https://palombarolungo.com/zh-hant/cookie-settings/',
-        'x-default': 'https://palombarolungo.com/en/cookie-settings/',
+        it: absoluteUrl('/it/cookie-settings/'),
+        'zh-Hant': absoluteUrl('/zh-hant/cookie-settings/'),
+        'x-default': absoluteUrl('/it/cookie-settings/'),
       },
     },
   };

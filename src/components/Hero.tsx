@@ -1,12 +1,11 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import LanguageToggle from './LanguageToggle';
-import ThemeToggle from './ThemeToggle';
+import { siteConfig } from '@/lib/site';
+import SiteHeader from './SiteHeader';
 
 export default function Hero({ locale }: { locale: string }) {
   const t = useTranslations('hero');
-  const th = useTranslations('header');
   const tf = useTranslations('footer');
   const tags: string[] = t.raw('tags');
 
@@ -18,19 +17,11 @@ export default function Hero({ locale }: { locale: string }) {
           backgroundImage: 'url("/gallery/images (15).jpg")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          opacity: 0.3
+          opacity: 0.3,
         }} 
       />
       
-      <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4" style={{ backgroundColor: 'var(--color-bg)', borderBottom: '1px solid var(--color-border)' }}>
-        <span className="text-sm font-semibold tracking-tight" style={{ color: 'var(--color-text-primary)' }}>
-          {th('siteTitle')}
-        </span>
-        <div className="flex items-center gap-3">
-          <LanguageToggle locale={locale} />
-          <ThemeToggle />
-        </div>
-      </header>
+      <SiteHeader locale={locale} />
 
       <div className="section-container relative z-10 pt-32 pb-16 md:pt-40 md:pb-24 text-center">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4" style={{ color: 'var(--color-text-primary)' }}>
@@ -64,7 +55,7 @@ export default function Hero({ locale }: { locale: string }) {
         </div>
 
         <a
-          href="https://maps.app.goo.gl/Q5HFzcgdtQLVFm1j9"
+          href={siteConfig.googleMapsUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary"

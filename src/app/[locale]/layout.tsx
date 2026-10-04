@@ -15,12 +15,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
   unstable_setRequestLocale(locale);
 
-  // Default SEO configuration for the layout
-  // We'll let specific pages override canonical and alternates where necessary,
-  // but we can set a base layout alternate configuration
   return {
-    title: 'Palombaro Lungo',
-    description: 'Underground water cistern beneath Piazza Vittorio Veneto, Matera, Italy',
+    title: locale === 'zh-hant' ? 'Palombaro Lungo' : 'Palombaro Lungo Matera',
+    description:
+      locale === 'zh-hant'
+        ? '探索 Palombaro Lungo，了解馬泰拉地下蓄水池的參觀資訊、票價與實用建議。'
+        : 'Guida al Palombaro Lungo di Matera con orari, biglietti, prezzi, foto e consigli pratici per la visita.',
   };
 }
 
@@ -29,30 +29,8 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
   const messages = await getMessages();
 
   return (
-    <html lang={locale === 'zh-hant' ? 'zh-Hant' : locale} suppressHydrationWarning>
-      <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  var theme = localStorage.getItem('theme');
-                  if (theme === 'dark') {
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                  } else {
-                    document.documentElement.removeAttribute('data-theme');
-                  }
-                } catch(e) {}
-              })();
-            `,
-          }}
-        />
-      </head>
-      <body className="min-h-screen" style={{ backgroundColor: 'var(--color-bg)', color: 'var(--color-text-primary)' }}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      {children}
+    </NextIntlClientProvider>
   );
 }

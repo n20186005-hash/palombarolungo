@@ -1,18 +1,22 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import TermsOfServiceClient from './TermsOfServiceClient';
+import { absoluteUrl } from '@/lib/site';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const currentUrl = `https://palombarolungo.com/${locale}/terms-of-service/`;
+  const currentUrl = absoluteUrl(locale === 'it' ? '/it/terms-of-service/' : '/zh-hant/terms-of-service/');
   
   return {
+    robots: {
+      index: false,
+      follow: true,
+    },
     alternates: {
       canonical: currentUrl,
       languages: {
-        'en': 'https://palombarolungo.com/en/terms-of-service/',
-        'it': 'https://palombarolungo.com/it/terms-of-service/',
-        'zh-Hant': 'https://palombarolungo.com/zh-hant/terms-of-service/',
-        'x-default': 'https://palombarolungo.com/en/terms-of-service/',
+        it: absoluteUrl('/it/terms-of-service/'),
+        'zh-Hant': absoluteUrl('/zh-hant/terms-of-service/'),
+        'x-default': absoluteUrl('/it/terms-of-service/'),
       },
     },
   };

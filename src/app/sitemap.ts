@@ -1,28 +1,45 @@
 import { MetadataRoute } from 'next';
-import { locales } from '@/i18n/config';
+import { absoluteUrl, localizedPath } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://palombarolungo.com';
+  const lastModified = new Date();
 
-  const pages = [
-    '',
-    '/cookie-settings',
-    '/privacy-policy',
-    '/terms-of-service',
+  return [
+    {
+      url: absoluteUrl('/'),
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 1,
+    },
+    {
+      url: absoluteUrl(localizedPath('zh-hant')),
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: absoluteUrl('/orari-biglietti/'),
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: absoluteUrl('/foto/'),
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl('/recensioni/'),
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl('/come-arrivare/'),
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ];
-
-  const sitemapEntries: MetadataRoute.Sitemap = [];
-
-  pages.forEach((page) => {
-    locales.forEach((locale) => {
-      sitemapEntries.push({
-        url: `${baseUrl}/${locale}${page}/`,
-        lastModified: new Date(),
-        changeFrequency: page === '' ? 'weekly' : 'monthly',
-        priority: page === '' ? 1 : 0.5,
-      });
-    });
-  });
-
-  return sitemapEntries;
 }

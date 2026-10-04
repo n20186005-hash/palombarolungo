@@ -6,6 +6,18 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    const canonicalHost = 'www.palombarolungo.com';
+
+    if (url.protocol !== 'https:' || url.hostname !== canonicalHost) {
+      url.protocol = 'https:';
+      url.hostname = canonicalHost;
+      return Response.redirect(url.toString(), 301);
+    }
+
+    if (url.pathname === '/it' || url.pathname === '/it/' || url.pathname === '/it/index.html') {
+      url.pathname = '/';
+      return Response.redirect(url.toString(), 301);
+    }
 
     if (
       url.pathname.length > 1 &&

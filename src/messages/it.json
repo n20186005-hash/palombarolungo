@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Palombaro Lungo — La Cattedrale d'Acqua di Matera",
-    "description": "Scopri il Palombaro Lungo, una delle più grandi cisterne sotterranee d'Italia, sotto Piazza Vittorio Veneto a Matera. Guida completa per visitatori con orari, biglietti e consigli."
+    "title": "Palombaro Lungo Matera: Orari, Biglietti, Prezzi e Visita 2026",
+    "description": "Guida al Palombaro Lungo di Matera con orari, biglietti, prezzi, foto, durata della visita e consigli pratici."
   },
   "header": {
     "siteTitle": "Palombaro Lungo",
@@ -9,24 +9,51 @@
     "darkMode": "Scuro"
   },
   "hero": {
-    "title": "Palombaro Lungo",
-    "subtitle": "La cattedrale d'acqua sotterranea nel cuore di Matera",
+    "title": "Palombaro Lungo Matera",
+    "subtitle": "Orari, biglietti, prezzi, foto e consigli per visitare la grande cisterna sotto Piazza Vittorio Veneto",
     "rating": "4.5/5",
-    "reviewCount": "11.880 recensioni",
+    "reviewCount": "12.972 recensioni",
     "hours": "Tutti i giorni 10:00–13:00, 15:00–18:00",
     "ticket": "€3 adulti · Gratuito minori",
     "openMaps": "Apri su Google Maps",
-    "tags": ["Cisterna", "Sotterraneo", "UNESCO", "Sassi", "Acqua", "Cattedrale d'Acqua"]
+    "tags": ["Matera", "Orari", "Biglietti", "Foto", "Piazza Vittorio Veneto", "Cisterna sotterranea"]
+  },
+  "quickLinks": {
+    "title": "Informazioni utili prima della visita",
+    "description": "Abbiamo separato le informazioni più cercate in pagine dedicate, così Google e i visitatori trovano subito ciò che serve.",
+    "items": [
+      {
+        "href": "/orari-biglietti/",
+        "title": "Orari, biglietti e prezzi",
+        "description": "Orari aggiornati, durata della visita e consigli pratici prima di entrare."
+      },
+      {
+        "href": "/foto/",
+        "title": "Foto del Palombaro Lungo",
+        "description": "Le immagini più rappresentative dell'interno della cisterna di Matera."
+      },
+      {
+        "href": "/recensioni/",
+        "title": "Recensioni e opinioni",
+        "description": "Sintesi di ciò che i visitatori apprezzano di più e dei limiti da conoscere."
+      },
+      {
+        "href": "/come-arrivare/",
+        "title": "Come arrivare",
+        "description": "Indicazioni per raggiungere il sito da Piazza Vittorio Veneto e dal centro storico."
+      }
+    ]
   },
   "introduction": {
-    "title": "Scopri il Palombaro Lungo",
-    "description": "Il Palombaro Lungo è una delle più grandi cisterne sotterranee d'Italia, nascosta sotto Piazza Vittorio Veneto nel cuore di Matera. Soprannominata \"cattedrale d'acqua\" per le sue maestose volte che ricordano una navata di chiesa, questa straordinaria opera di ingegneria idraulica raccoglieva acqua piovana e sorgiva attraverso un sistema di canali, fornendo acqua potabile alla città per secoli.",
+    "title": "Il Palombaro Lungo di Matera",
+    "description": "Il Palombaro Lungo di Matera è una delle più grandi cisterne sotterranee d'Italia, situata sotto Piazza Vittorio Veneto nel cuore del centro storico. Chiamato spesso \"cattedrale d'acqua\" per le sue volte monumentali, è uno dei luoghi più particolari da vedere a Matera se cercate una visita breve ma memorabile.",
     "highlights": [
       "Una delle più grandi cisterne sotterranee d'Italia con capacità di circa 5 milioni di litri",
+      "Si trova sotto Piazza Vittorio Veneto, nel centro storico di Matera",
       "Profondità di 15-18 metri con maestose volte in pietra e colonne scolpite nel calcare",
       "Riscoperta nel 1991 durante i lavori di ristrutturazione di Piazza Vittorio Veneto",
       "Parte del patrimonio che ha contribuito all'iscrizione UNESCO dei Sassi di Matera (1993)",
-      "Valutazione 4.5 su 5 con circa 11.880 recensioni su Google Maps"
+      "Valutazione 4.5 su 5 con circa 12.972 recensioni su Google Maps"
     ]
   },
   "science": {
@@ -159,7 +186,7 @@
   "gallery": {
     "title": "Galleria Fotografica",
     "googleMapsDesc": "Descrizione da Google Maps, ultimo aggiornamento 2026. Per vedere tutte le foto, clicca qui",
-    "googleMapsLink": "https://maps.app.goo.gl/qMAQj2tjR1tZZrdS7",
+    "googleMapsLink": "https://maps.app.goo.gl/cUfXtK1QWiaNUHzB8",
     "captions": [
       "Le volte in calcare del Palombaro Lungo illuminate",
       "Passerelle metalliche sospese sopra l'acqua della cisterna",
@@ -170,59 +197,18 @@
     ]
   },
   "reviews": {
-    "title": "Recensioni dei visitatori reali",
-    "declaration": "Le valutazioni provengono da Google Maps, aggiornate al 2026. Vengono mostrate solo le recensioni verificate con valutazione elevata. Per tutte le recensioni, visita il link sottostante.",
+    "title": "Cosa dicono i visitatori",
+    "declaration": "Le valutazioni pubbliche provengono da Google Maps e vengono usate qui come sintesi editoriale delle impressioni più ricorrenti.",
+    "stats": "Basato su {reviewCount} recensioni pubbliche.",
+    "whatVisitorsSay": "Aspetti citati più spesso",
+    "highlights": [
+      "L'effetto sorpresa della grande cisterna sotto Piazza Vittorio Veneto colpisce quasi tutti i visitatori.",
+      "Le volte, i riflessi sull'acqua e l'atmosfera sotterranea sono gli elementi più fotografati e ricordati.",
+      "Il prezzo contenuto e la posizione centrale rendono la visita molto apprezzata anche da chi ha poco tempo.",
+      "La durata breve è l'osservazione più frequente, ma per molti resta comunque una tappa consigliata."
+    ],
     "seeMore": "Vedi più recensioni su Google Maps",
-    "items": [
-      {
-        "name": "Marco B.",
-        "date": "Febbraio 2026",
-        "stars": 5,
-        "text": "Incredibile. Scendere sotto Piazza Vittorio Veneto e trovarsi in questa enorme cisterna è un'emozione unica. Le volte altissime e i riflessi sull'acqua creano un'atmosfera magica. Per €3 è imperdibile."
-      },
-      {
-        "name": "Giulia R.",
-        "date": "Gennaio 2026",
-        "stars": 5,
-        "text": "La chiamano cattedrale d'acqua e il nome è perfetto. Il silenzio, le volte imponenti, l'acqua sul fondo... un luogo fuori dal tempo. La visita è breve ma intensa."
-      },
-      {
-        "name": "François D.",
-        "date": "Dicembre 2025",
-        "stars": 4,
-        "text": "Un lieu fascinant sous la place principale de Matera. L'échelle de cette citerne est impressionnante. La visite est courte (15 minutes) mais le prix de 3€ est très raisonnable."
-      },
-      {
-        "name": "Elena M.",
-        "date": "Novembre 2025",
-        "stars": 4,
-        "text": "Suggestivo e interessante. L'unica pecca è che la visita dura davvero poco, circa 15 minuti. Ma per il prezzo e per la particolarità del luogo, lo consiglio assolutamente."
-      },
-      {
-        "name": "Thomas W.",
-        "date": "Ottobre 2025",
-        "stars": 5,
-        "text": "Hidden beneath the main square, this massive underground cistern is jaw-dropping. The scale is hard to believe — 5 million liters of water capacity! A must-see in Matera."
-      },
-      {
-        "name": "Alessandra P.",
-        "date": "Settembre 2025",
-        "stars": 5,
-        "text": "Portiamo sempre gli amici qui quando vengono a Matera. L'effetto sorpresa è garantito: nessuno si aspetta di trovare una cattedrale sotterranea sotto la piazza. €3 spesi benissimo."
-      },
-      {
-        "name": "Hiroshi T.",
-        "date": "Agosto 2025",
-        "stars": 5,
-        "text": "Bellissima sorpresa! Dentro fa fresco anche in pieno agosto, un sollievo dal caldo estivo. Le passerelle metalliche permettono di vedere tutto comodamente. Fotografie consentite."
-      },
-      {
-        "name": "Sara L.",
-        "date": "Luglio 2025",
-        "stars": 4,
-        "text": "Esperienza affascinante e veloce. Perfetta da combinare con la passeggiata nei Sassi. L'unico problema è che non si può prenotare e in estate c'è un po' di coda."
-      }
-    ]
+    "items": []
   },
   "tips": {
     "title": "Consigli per i Visitatori",
@@ -260,18 +246,20 @@
     ]
   },
   "map": {
-    "title": "Come Raggiungerci",
-    "address": "Piazza Vittorio Veneto, 75100 Matera MT, Italia",
+    "title": "Come raggiungere il Palombaro Lungo di Matera",
+    "address": "Piazza Vittorio Veneto, 75100 Matera MT, Italy",
+    "addressLabel": "Indirizzo",
+    "phoneLabel": "Telefono",
+    "websiteLabel": "Sito web",
     "openMaps": "Apri su Google Maps"
   },
   "sources": {
     "title": "Dati e Riferimenti",
     "description": "Le informazioni presenti in questa guida provengono dalle seguenti fonti:",
     "items": [
-      "Dati sulla posizione, valutazioni e recensioni: Google Maps",
-      "Informazioni storiche e pratiche: www.palombarolungo.it",
-      "Fotografie: Unsplash (licenza gratuita per uso commerciale e non commerciale)",
-      "Contenuti editoriali: redazione palombarolungo.com"
+      "Dati su posizione, valutazioni e recapiti pubblici: Google Maps",
+      "Informazioni istituzionali e di visita: sito ufficiale palombarolungo.com",
+      "Contenuti editoriali e sintesi SEO: redazione palombarolungo.com"
     ]
   },
   "footer": {
@@ -283,7 +271,7 @@
     "disclaimer": "Questo sito web è una guida informativa turistica di terze parti indipendente, progettata per fornire ai visitatori un contesto storico obiettivo e consigli pratici di viaggio, e non è affiliato con l'organizzazione ufficiale di gestione del Palombaro Lungo. Per l'acquisto di biglietti ufficiali, si prega di visitare i canali ufficiali.",
     "disclaimerEn": "This website is an independent third-party tourist information guide, designed to provide visitors with objective historical background and practical travel advice. It is not affiliated with or endorsed by the official management of Palombaro Lungo. For official tickets, please visit official channels.",
     "priceNote": "* I prezzi indicati sono solo di riferimento, fare riferimento al prezzo ufficiale effettivo.",
-    "sourceInfo": "Informazioni estratte da risorse pubbliche (Ufficio del Turismo di Matera/enti locali del turismo e Wikipedia), combinate con informazioni di base da Google Maps."
+    "sourceInfo": "Informazioni rielaborate da fonti pubbliche, Google Maps e sito ufficiale, con aggiornamento editoriale orientato ai visitatori."
   },
   "privacyPolicy": {
     "title": "Informativa sulla Privacy",
@@ -299,7 +287,7 @@
       },
       {
         "heading": "Servizi di terze parti",
-        "text": "Il sito integra contenuti di Google Maps e immagini da Unsplash. Questi servizi possono raccogliere dati secondo le proprie politiche sulla privacy. Vi invitiamo a consultare le rispettive informative."
+        "text": "Il sito integra contenuti di Google Maps. Eventuali link esterni al sito ufficiale o ad altri servizi possono essere soggetti alle rispettive informative sulla privacy."
       },
       {
         "heading": "Contatti",
@@ -321,7 +309,7 @@
       },
       {
         "heading": "Proprietà intellettuale",
-        "text": "I contenuti editoriali sono di proprietà di palombarolungo.com. Le fotografie sono fornite da Unsplash sotto licenza libera. I dati delle mappe appartengono a Google."
+        "text": "I contenuti editoriali sono di proprietà di palombarolungo.com. I dati delle mappe appartengono a Google e i contenuti dei siti esterni restano di proprietà dei rispettivi titolari."
       },
       {
         "heading": "Limitazione di responsabilità",

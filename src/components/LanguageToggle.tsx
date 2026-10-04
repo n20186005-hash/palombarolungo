@@ -8,9 +8,17 @@ export default function LanguageToggle({ locale }: { locale: string }) {
   const pathname = usePathname();
 
   const getTargetPath = (targetLocale: string) => {
-    const segments = pathname.split('/');
-    segments[1] = targetLocale;
-    return segments.join('/');
+    const segments = pathname.split('/').filter(Boolean);
+    const hasLocalePrefix = segments[0] === 'it' || segments[0] === 'zh-hant';
+
+    if (!hasLocalePrefix) {
+      return targetLocale === 'it' ? '/' : `/${targetLocale}/`;
+    }
+
+    const remainingSegments = segments.slice(1);
+    const remainingPath = remainingSegments.length > 0 ? `/${remainingSegments.join('/')}` : '/';
+
+    return targetLocale === 'it' ? remainingPath : `/${targetLocale}${remainingPath}`;
   };
 
   const otherLocale: Locale = locale === 'it' ? 'zh-hant' : 'it';

@@ -4,9 +4,9 @@ import { locales, defaultLocale } from './src/i18n/config';
 export default createMiddleware({
   locales,
   defaultLocale,
-  localePrefix: 'always',
+  localePrefix: 'as-needed',
 });
 
 export const config = {
-  matcher: ['/', '/(it|zh-hant)/:path*'],
+  matcher: ['/', '/(zh-hant)/:path*'],
 };
