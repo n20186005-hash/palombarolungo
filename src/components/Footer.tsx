@@ -27,9 +27,9 @@ export default function Footer({ locale }: { locale: string }) {
 
       <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
         <div className="flex flex-wrap items-center gap-4 text-xs" style={{ color: 'var(--color-text-muted)' }}>
-          <Link href="/chi-siamo/" className="hover:underline">Chi siamo</Link>
-          <Link href="/note-legali/" className="hover:underline">Note legali</Link>
-          <Link href="/contatti/" className="hover:underline">Contatti della redazione</Link>
+          <Link href="/chi-siamo/" className="hover:underline">{locale === 'zh-hant' ? '關於本指南（義大利文）' : 'Chi siamo'}</Link>
+          <Link href="/note-legali/" className="hover:underline">{locale === 'zh-hant' ? '法律說明（義大利文）' : 'Note legali'}</Link>
+          <Link href="/contatti/" className="hover:underline">{locale === 'zh-hant' ? '編輯部聯絡方式（義大利文）' : 'Contatti della redazione'}</Link>
           <Link href={`/${locale}/privacy-policy/`} className="hover:underline">
             {t('privacyPolicy')}
           </Link>
