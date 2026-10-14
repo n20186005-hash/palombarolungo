@@ -1,7 +1,8 @@
 export const siteConfig = {
-  siteName: 'Palombaro Lungo',
+  siteName: 'Palombarolungo.com · Guida indipendente',
   baseUrl: 'https://www.palombarolungo.com',
-  officialWebsite: 'https://www.palombarolungo.com/',
+  attractionWebsite: 'https://www.palombarolungo.it/',
+  editorialEmail: 'claritleonelmnicol@gmail.com',
   googleMapsUrl: 'https://maps.app.goo.gl/cUfXtK1QWiaNUHzB8',
   telephone: '+39 339 363 8332',
   reviewCount: 12972,

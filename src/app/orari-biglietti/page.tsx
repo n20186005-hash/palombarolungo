@@ -72,7 +72,7 @@ export default function OrariBigliettiPage() {
             title: 'Consigli pratici prima di entrare',
             paragraphs: [
               'All interno la temperatura e piu fresca rispetto all esterno e il percorso richiede scale e passerelle. Scarpe comode e una giacca leggera possono essere utili, soprattutto nelle mezze stagioni o dopo il tramonto.',
-              `Per informazioni aggiornate, puoi consultare anche il sito ufficiale ${siteConfig.officialWebsite} oppure chiamare ${siteConfig.telephone}.`,
+              `Questa guida non vende biglietti e non gestisce prenotazioni. Verifica orari, prezzi e modalità di accesso su ${siteConfig.attractionWebsite}. Il recapito ${siteConfig.telephone} è pubblicato dal sito di riferimento per la visita e non appartiene alla nostra redazione; non è possibile prenotare telefonicamente.`,
             ],
           },
         ]}

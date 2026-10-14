@@ -19,8 +19,8 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
     title: locale === 'zh-hant' ? 'Palombaro Lungo' : 'Palombaro Lungo Matera',
     description:
       locale === 'zh-hant'
-        ? '探索 Palombaro Lungo，了解馬泰拉地下蓄水池的參觀資訊、票價與實用建議。'
-        : 'Guida al Palombaro Lungo di Matera con orari, biglietti, prezzi, foto e consigli pratici per la visita.',
+        ? '獨立非官方旅遊指南：Palombaro Lungo，了解馬泰拉地下蓄水池的參觀資訊、票價與實用建議。'
+        : 'Guida indipendente non ufficiale al Palombaro Lungo di Matera con orari, biglietti, prezzi, foto e consigli pratici per la visita.',
   };
 }
 

@@ -24,11 +24,6 @@ const jsonLd = {
   '@type': 'WebPage',
   name: 'Palombaro Lungo Recensioni',
   url: absoluteUrl('/recensioni/'),
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: siteConfig.ratingValue,
-    reviewCount: siteConfig.reviewCount,
-  },
 };
 
 export default function RecensioniPage() {
@@ -65,7 +60,7 @@ export default function RecensioniPage() {
             title: 'Vale la pena visitarlo?',
             paragraphs: [
               'Per la maggior parte dei visitatori la risposta e si, soprattutto se e la prima volta a Matera. Non e il luogo in cui passare ore, ma e uno di quelli che si ricordano meglio per atmosfera e particolarita.',
-              'Se vuoi verificare le recensioni direttamente alla fonte, la soluzione piu affidabile resta sempre la pagina Google Maps ufficiale collegata da questo sito.',
+              'Se vuoi verificare le recensioni direttamente alla fonte, la soluzione piu affidabile resta sempre la scheda del luogo su Google Maps collegata da questa guida indipendente.',
             ],
           },
         ]}

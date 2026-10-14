@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "title": "Palombaro Lungo Matera: Orari, Biglietti, Prezzi e Visita 2026",
-    "description": "Guida al Palombaro Lungo di Matera con orari, biglietti, prezzi, foto, durata della visita e consigli pratici."
+    "title": "Palombaro Lungo Matera · Guida indipendente non ufficiale",
+    "description": "Guida indipendente non ufficiale: storia, orari, biglietti e consigli per la visita al Palombaro Lungo di Matera."
   },
   "header": {
-    "siteTitle": "Palombaro Lungo",
+    "siteTitle": "Palombarolungo.com",
     "lightMode": "Chiaro",
-    "darkMode": "Scuro"
+    "darkMode": "Scuro",
+    "siteRole": "Guida indipendente · Non ufficiale"
   },
   "hero": {
     "title": "Palombaro Lungo Matera",
@@ -16,16 +17,23 @@
     "hours": "Tutti i giorni 10:00–13:00, 15:00–18:00",
     "ticket": "€3 adulti · Gratuito minori",
     "openMaps": "Apri su Google Maps",
-    "tags": ["Matera", "Orari", "Biglietti", "Foto", "Piazza Vittorio Veneto", "Cisterna sotterranea"]
+    "tags": [
+      "Matera",
+      "Orari",
+      "Biglietti",
+      "Foto",
+      "Piazza Vittorio Veneto",
+      "Cisterna sotterranea"
+    ]
   },
   "quickLinks": {
     "title": "Informazioni utili prima della visita",
-    "description": "Abbiamo separato le informazioni più cercate in pagine dedicate, così Google e i visitatori trovano subito ciò che serve.",
+    "description": "Consulta le pagine della guida indipendente per preparare la visita e verificare le informazioni utili.",
     "items": [
       {
         "href": "/orari-biglietti/",
         "title": "Orari, biglietti e prezzi",
-        "description": "Orari aggiornati, durata della visita e consigli pratici prima di entrare."
+        "description": "Orari indicativi, durata della visita e consigli pratici prima di entrare."
       },
       {
         "href": "/foto/",
@@ -185,7 +193,7 @@
   },
   "gallery": {
     "title": "Galleria Fotografica",
-    "googleMapsDesc": "Descrizione da Google Maps, ultimo aggiornamento 2026. Per vedere tutte le foto, clicca qui",
+    "googleMapsDesc": "Altre foto del luogo su Google Maps (sito esterno)",
     "googleMapsLink": "https://maps.app.goo.gl/cUfXtK1QWiaNUHzB8",
     "captions": [
       "Le volte in calcare del Palombaro Lungo illuminate",
@@ -249,33 +257,34 @@
     "title": "Come raggiungere il Palombaro Lungo di Matera",
     "address": "Piazza Vittorio Veneto, 75100 Matera MT, Italy",
     "addressLabel": "Indirizzo",
-    "phoneLabel": "Telefono",
-    "websiteLabel": "Sito web",
-    "openMaps": "Apri su Google Maps"
+    "phoneLabel": "Recapito del sito culturale",
+    "websiteLabel": "Informazioni sulla visita (sito esterno)",
+    "openMaps": "Apri su Google Maps",
+    "contactNote": "I recapiti seguenti riguardano il sito culturale, non questa guida. Non è possibile prenotare telefonicamente. Per correzioni e questioni editoriali usa la pagina Contatti della redazione."
   },
   "sources": {
     "title": "Dati e Riferimenti",
     "description": "Le informazioni presenti in questa guida provengono dalle seguenti fonti:",
     "items": [
-      "Dati su posizione, valutazioni e recapiti pubblici: Google Maps",
-      "Informazioni istituzionali e di visita: sito ufficiale palombarolungo.com",
-      "Contenuti editoriali e sintesi SEO: redazione palombarolungo.com"
+      "Posizione, valutazioni e recapiti pubblici: scheda del luogo su Google Maps (dati variabili).",
+      "Informazioni di visita: palombarolungo.it, sito esterno distinto da questa guida.",
+      "Testi e sintesi editoriali: guida indipendente palombarolungo.com."
     ]
   },
   "footer": {
-    "copyright": "© 2026 Palombaro Lungo · Tutti i diritti riservati.",
-    "support": "Supporto tecnico",
+    "copyright": "© 2026 Redazione della guida indipendente palombarolungo.com. I diritti dei terzi restano ai rispettivi titolari.",
+    "support": "Contatti della redazione (non del sito culturale)",
     "privacyPolicy": "Informativa sulla privacy",
     "termsOfService": "Termini di servizio",
     "cookieSettings": "Impostazioni cookie",
-    "disclaimer": "Questo sito web è una guida informativa turistica di terze parti indipendente, progettata per fornire ai visitatori un contesto storico obiettivo e consigli pratici di viaggio, e non è affiliato con l'organizzazione ufficiale di gestione del Palombaro Lungo. Per l'acquisto di biglietti ufficiali, si prega di visitare i canali ufficiali.",
-    "disclaimerEn": "This website is an independent third-party tourist information guide, designed to provide visitors with objective historical background and practical travel advice. It is not affiliated with or endorsed by the official management of Palombaro Lungo. For official tickets, please visit official channels.",
-    "priceNote": "* I prezzi indicati sono solo di riferimento, fare riferimento al prezzo ufficiale effettivo.",
-    "sourceInfo": "Informazioni rielaborate da fonti pubbliche, Google Maps e sito ufficiale, con aggiornamento editoriale orientato ai visitatori."
+    "disclaimer": "Palombarolungo.com è una guida turistica indipendente e non ufficiale. Non è gestita, autorizzata, sponsorizzata o approvata dai proprietari o dai gestori del Palombaro Lungo, né da enti pubblici. Non rappresenta il sito culturale e non vende biglietti né gestisce prenotazioni.",
+    "disclaimerEn": "Palombarolungo.com is an independent, non-official tourism guide. It is not operated, authorized, sponsored or endorsed by the owners or managers of Palombaro Lungo or by public authorities. This guide does not sell tickets or handle bookings. Verify visitor information on the separate external website palombarolungo.it.",
+    "priceNote": "Orari, prezzi e valutazioni sono indicativi: verifica i dati prima della visita su palombarolungo.it e Google Maps.",
+    "sourceInfo": "Informazioni rielaborate da fonti pubbliche; orari, prezzi, recensioni e recapiti possono cambiare. Verifica prima della visita sul sito esterno palombarolungo.it."
   },
   "privacyPolicy": {
     "title": "Informativa sulla Privacy",
-    "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
+    "lastUpdated": "Ultimo aggiornamento: 14 ottobre 2026",
     "content": [
       {
         "heading": "Raccolta dei dati",
@@ -287,7 +296,7 @@
       },
       {
         "heading": "Servizi di terze parti",
-        "text": "Il sito integra contenuti di Google Maps. Eventuali link esterni al sito ufficiale o ad altri servizi possono essere soggetti alle rispettive informative sulla privacy."
+        "text": "Il sito integra contenuti di Google Maps. Eventuali link esterni a siti di riferimento per la visita o ad altri servizi possono essere soggetti alle rispettive informative sulla privacy."
       },
       {
         "heading": "Contatti",
@@ -297,11 +306,11 @@
   },
   "termsOfService": {
     "title": "Termini di Servizio",
-    "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
+    "lastUpdated": "Ultimo aggiornamento: 14 ottobre 2026",
     "content": [
       {
         "heading": "Accettazione dei termini",
-        "text": "Utilizzando palombarolungo.com, accettate i presenti termini di servizio. Il sito fornisce informazioni turistiche sul Palombaro Lungo a scopo puramente informativo."
+        "text": "Palombarolungo.com è una guida turistica indipendente e non ufficiale. Non è gestita, autorizzata, sponsorizzata o approvata dai proprietari o dai gestori del Palombaro Lungo, né da enti pubblici. Non rappresenta il sito culturale e non vende biglietti né gestisce prenotazioni."
       },
       {
         "heading": "Contenuti",
@@ -309,11 +318,11 @@
       },
       {
         "heading": "Proprietà intellettuale",
-        "text": "I contenuti editoriali sono di proprietà di palombarolungo.com. I dati delle mappe appartengono a Google e i contenuti dei siti esterni restano di proprietà dei rispettivi titolari."
+        "text": "La denominazione Palombaro Lungo è usata per identificare il luogo descritto e non implica affiliazione. Nomi, marchi, fotografie, mappe e contenuti di terzi appartengono ai rispettivi titolari. Per segnalazioni sui diritti scrivi alla redazione indicando URL e materiale interessato."
       },
       {
         "heading": "Limitazione di responsabilità",
-        "text": "palombarolungo.com non è responsabile per eventuali danni derivanti dall'uso delle informazioni presenti sul sito. Verificate sempre le informazioni prima della visita."
+        "text": "Le informazioni hanno finalità divulgativa e non costituiscono annunci del gestore, offerte di vendita o garanzie di accesso. Verifica le condizioni direttamente presso il sito culturale. Restano ferme le responsabilità e i diritti previsti dalla legge applicabile."
       },
       {
         "heading": "Contatti",

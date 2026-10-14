@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { siteConfig } from '@/lib/site';
 
 export default function Footer({ locale }: { locale: string }) {
   const t = useTranslations('footer');
@@ -26,20 +27,23 @@ export default function Footer({ locale }: { locale: string }) {
 
       <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
         <div className="flex flex-wrap items-center gap-4 text-xs" style={{ color: 'var(--color-text-muted)' }}>
-          <Link href={`/${locale}/privacy-policy`} className="hover:underline">
+          <Link href="/chi-siamo/" className="hover:underline">Chi siamo</Link>
+          <Link href="/note-legali/" className="hover:underline">Note legali</Link>
+          <Link href="/contatti/" className="hover:underline">Contatti della redazione</Link>
+          <Link href={`/${locale}/privacy-policy/`} className="hover:underline">
             {t('privacyPolicy')}
           </Link>
-          <Link href={`/${locale}/terms-of-service`} className="hover:underline">
+          <Link href={`/${locale}/terms-of-service/`} className="hover:underline">
             {t('termsOfService')}
           </Link>
-          <Link href={`/${locale}/cookie-settings`} className="hover:underline">
+          <Link href={`/${locale}/cookie-settings/`} className="hover:underline">
             {t('cookieSettings')}
           </Link>
         </div>
         <div className="text-xs" style={{ color: 'var(--color-text-muted)' }}>
           {t('support')}:{' '}
-          <a href="mailto:claritleonelmnicol@gmail.com" className="hover:underline">
-            claritleonelmnicol@gmail.com
+          <a href={`mailto:${siteConfig.editorialEmail}`} className="hover:underline">
+            {siteConfig.editorialEmail}
           </a>
         </div>
       </div>

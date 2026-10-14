@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "title": "Palombaro Lungo｜馬泰拉參觀指南",
-    "description": "探索 Palombaro Lungo，了解開放時間、票價、照片、交通方式與實用建議。"
+    "title": "Palombaro Lungo｜獨立非官方旅遊指南",
+    "description": "獨立非官方旅遊指南，介紹馬泰拉 Palombaro Lungo 的歷史、時間、票價與參觀建議。"
   },
   "header": {
-    "siteTitle": "Palombaro Lungo",
+    "siteTitle": "Palombarolungo.com",
     "lightMode": "淺色",
-    "darkMode": "深色"
+    "darkMode": "深色",
+    "siteRole": "獨立旅遊指南 · 非官方"
   },
   "hero": {
     "title": "Palombaro Lungo Matera",
@@ -16,7 +17,14 @@
     "hours": "每天 10:00–13:00, 15:00–18:00",
     "ticket": "€3 成人 · 未成年人免費",
     "openMaps": "在Google Maps上開啟",
-    "tags": ["Matera", "開放時間", "門票", "照片", "Piazza Vittorio Veneto", "地下蓄水池"]
+    "tags": [
+      "Matera",
+      "開放時間",
+      "門票",
+      "照片",
+      "Piazza Vittorio Veneto",
+      "地下蓄水池"
+    ]
   },
   "quickLinks": {
     "title": "出發前的重要資訊",
@@ -185,7 +193,7 @@
   },
   "gallery": {
     "title": "照片集",
-    "googleMapsDesc": "說明來自Google Maps，最近更新於2026年。如需查看所有圖片，請點擊此處",
+    "googleMapsDesc": "在 Google Maps 查看景點的其他照片（外部網站）",
     "googleMapsLink": "https://maps.app.goo.gl/cUfXtK1QWiaNUHzB8",
     "captions": [
       "Palombaro Lungo燈光照射下的石灰岩拱頂",
@@ -249,33 +257,34 @@
     "title": "如何前往 Palombaro Lungo",
     "address": "Piazza Vittorio Veneto, 75100 Matera MT, Italy",
     "addressLabel": "地址",
-    "phoneLabel": "電話",
-    "websiteLabel": "網站",
-    "openMaps": "在Google Maps上開啟"
+    "phoneLabel": "景點聯絡電話",
+    "websiteLabel": "參觀資訊（外部網站）",
+    "openMaps": "在Google Maps上開啟",
+    "contactNote": "以下為景點的公開聯絡資訊，並非本網站編輯部。不能以電話預約。內容更正或版權問題請使用編輯部聯絡頁面。"
   },
   "sources": {
     "title": "資料來源與參考",
     "description": "本指南中的資訊來自以下來源：",
     "items": [
-      "位置、評分與公開聯絡資訊：Google Maps",
-      "參觀與官方資訊：palombarolungo.com 官方網站",
-      "編輯整理與 SEO 摘要：palombarolungo.com 編輯部"
+      "位置、評分與公開聯絡資訊：Google Maps 景點資訊（可能變動）。",
+      "參觀資訊：palombarolungo.it，與本指南無關的外部網站。",
+      "文章與編輯整理：palombarolungo.com 獨立旅遊指南。"
     ]
   },
   "footer": {
-    "copyright": "© 2026 Palombaro Lungo · 版權所有。",
-    "support": "技術支援",
+    "copyright": "© 2026 palombarolungo.com 獨立指南編輯部。第三方權利歸各權利人所有。",
+    "support": "編輯部聯絡方式（非景點）",
     "privacyPolicy": "隱私政策",
     "termsOfService": "服務條款",
     "cookieSettings": "Cookie設定",
-    "disclaimer": "本網站是一個獨立的第三方旅遊資訊指南，旨在為遊客提供客觀的歷史背景與遊覽建議，與 Palombaro Lungo 的官方管理機構無關。如需購買官方門票，請訪問官方渠道。",
-    "disclaimerEn": "This website is an independent third-party tourist information guide, designed to provide visitors with objective historical background and practical travel advice. It is not affiliated with or endorsed by the official management of Palombaro Lungo. For official tickets, please visit official channels.",
-    "priceNote": "* 所列價格僅供參考，請以官方實際價格為準。",
-    "sourceInfo": "資訊整理自公開來源、Google Maps 與官方網站，並由本站做旅遊導向的編輯更新。"
+    "disclaimer": "Palombarolungo.com 為獨立非官方旅遊指南，並非由景點所有者、管理者或政府機關營運、授權、贊助或認可。不代表景點，也不售票或處理預約。",
+    "disclaimerEn": "Palombarolungo.com is an independent, non-official tourism guide. It is not operated, authorized, sponsored or endorsed by the owners or managers of Palombaro Lungo or by public authorities. This guide does not sell tickets or handle bookings. Verify visitor information on the separate external website palombarolungo.it.",
+    "priceNote": "時間、票價及評分僅供參考：參觀前請至 palombarolungo.it 和 Google Maps 核實。",
+    "sourceInfo": "資訊依公開來源整理，開放時間、票價、評分與聯絡資訊可能變動。出發前請至外部網站 palombarolungo.it 核實。"
   },
   "privacyPolicy": {
     "title": "隱私政策",
-    "lastUpdated": "最後更新：2026年3月",
+    "lastUpdated": "最後更新：2026年10月14日",
     "content": [
       {
         "heading": "資料收集",
@@ -287,7 +296,7 @@
       },
       {
         "heading": "第三方服務",
-        "text": "本網站整合了 Google Maps 內容。若您點擊官方網站或其他外部連結，相關服務可能依其隱私政策收集資料。"
+        "text": "本網站整合了 Google Maps 內容。若您點擊景點參考網站或其他外部連結，相關服務可能依其隱私政策收集資料。"
       },
       {
         "heading": "聯繫方式",
@@ -297,11 +306,11 @@
   },
   "termsOfService": {
     "title": "服務條款",
-    "lastUpdated": "最後更新：2026年3月",
+    "lastUpdated": "最後更新：2026年10月14日",
     "content": [
       {
         "heading": "條款接受",
-        "text": "使用palombarolungo.com即表示您接受本服務條款。本網站提供關於Palombaro Lungo的旅遊資訊，僅供參考之用。"
+        "text": "Palombarolungo.com 為獨立非官方旅遊指南，並非由景點所有者、管理者或政府機關營運、授權、贊助或認可。不代表景點，也不售票或處理預約。"
       },
       {
         "heading": "內容",
@@ -309,11 +318,11 @@
       },
       {
         "heading": "智慧財產權",
-        "text": "編輯內容歸 palombarolungo.com 所有。地圖資料歸 Google 所有，外部網站內容則屬其各自權利人。"
+        "text": "Palombaro Lungo 名稱僅用於辨識介紹的景點，不表示任何隸屬關係。第三方名稱、商標、照片、地圖及內容歸各權利人所有。如有權利問題，請聯絡編輯部並提供頁面網址及相關內容。"
       },
       {
         "heading": "免責聲明",
-        "text": "palombarolungo.com對因使用本網站資訊而造成的任何損害不承擔責任。請在造訪前務必核實相關資訊。"
+        "text": "資訊僅供參考，不構成景點公告、銷售要約或入場保證。請直接向景點核實條件。適用法律規定的責任與權利仍然有效。"
       },
       {
         "heading": "聯繫方式",
