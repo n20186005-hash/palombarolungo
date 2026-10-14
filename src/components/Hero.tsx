@@ -23,7 +23,7 @@ export default function Hero({ locale }: { locale: string }) {
       
       <SiteHeader locale={locale} />
 
-      <div className="section-container relative z-10 pt-32 pb-16 md:pt-40 md:pb-24 text-center">
+      <div className="section-container relative z-10 pt-8 pb-16 md:pt-12 md:pb-24 text-center">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4" style={{ color: 'var(--color-text-primary)' }}>
           {t('title')}
         </h1>

@@ -18,7 +18,8 @@ export default function LanguageToggle({ locale }: { locale: string }) {
     const remainingSegments = segments.slice(1);
     const remainingPath = remainingSegments.length > 0 ? `/${remainingSegments.join('/')}` : '/';
 
-    return targetLocale === 'it' ? remainingPath : `/${targetLocale}${remainingPath}`;
+    const isLegalPage = ['privacy-policy', 'terms-of-service', 'cookie-settings'].includes(remainingSegments[0]);
+    return targetLocale === 'it' && !isLegalPage ? remainingPath : `/${targetLocale}${remainingPath}`;
   };
 
   const otherLocale: Locale = locale === 'it' ? 'zh-hant' : 'it';

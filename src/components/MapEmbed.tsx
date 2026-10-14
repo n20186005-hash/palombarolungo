@@ -12,6 +12,7 @@ export default function MapEmbed() {
       <p className="body-text mb-6 text-sm" style={{ color: 'var(--color-text-muted)' }}>
         {t('address')}
       </p>
+      <p className="body-text mb-6 text-sm">{t('contactNote')}</p>
       <div className="grid gap-4 mb-6 md:grid-cols-3">
         <div className="card">
           <p className="text-xs mb-2" style={{ color: 'var(--color-text-muted)' }}>
@@ -38,13 +39,13 @@ export default function MapEmbed() {
             {t('websiteLabel')}
           </p>
           <a
-            href={siteConfig.officialWebsite}
+            href={siteConfig.attractionWebsite}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium hover:underline"
             style={{ color: 'var(--color-text-primary)' }}
           >
-            palombarolungo.com
+            palombarolungo.it
           </a>
         </div>
       </div>

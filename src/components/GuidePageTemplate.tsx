@@ -4,6 +4,14 @@ import Link from 'next/link';
 import SiteHeader from '@/components/SiteHeader';
 import Footer from '@/components/Footer';
 
+function LinkedParagraph({ text }: { text: string }) {
+  return <>{text.split(/(https:\/\/www\.palombarolungo\.it\/|palombarolungo\.it|claritleonelmnicol@gmail\.com)/g).map((part, i) => {
+    if (part === 'claritleonelmnicol@gmail.com') return <a key={i} href={`mailto:${part}`} className="underline">{part}</a>;
+    if (part === 'palombarolungo.it' || part.startsWith('https://')) return <a key={i} href={part.startsWith('https://') ? part : `https://www.${part}/`} target="_blank" rel="noopener noreferrer" className="underline">{part}</a>;
+    return part;
+  })}</>;
+}
+
 type Section = {
   title: string;
   paragraphs: string[];
@@ -29,7 +37,7 @@ export default function GuidePageTemplate({
     <main>
       <SiteHeader locale="it" homeHref="/" />
 
-      <section className="section-container pt-32 pb-10 md:pt-40">
+      <section className="section-container pt-8 pb-10 md:pt-12">
         <div className="max-w-4xl">
           <p className="text-xs uppercase tracking-[0.2em] mb-4" style={{ color: 'var(--color-text-muted)' }}>
             Palombaro Lungo Matera
@@ -66,7 +74,7 @@ export default function GuidePageTemplate({
                   className="body-text"
                   style={{ color: 'var(--color-text-secondary)' }}
                 >
-                  {paragraph}
+                  <LinkedParagraph text={paragraph} />
                 </p>
               ))}
             </div>
