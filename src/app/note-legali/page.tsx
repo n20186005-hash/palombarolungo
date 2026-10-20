@@ -8,7 +8,10 @@ import { absoluteUrl } from '@/lib/site';
 export const metadata: Metadata = {
   title: "Note legali · Sito non ufficiale",
   description: "Informazioni sull’identità di questa guida, sull’uso dei contenuti e sui riferimenti esterni.",
-  alternates: { canonical: absoluteUrl('/note-legali/') },
+  alternates: {
+    canonical: absoluteUrl('/note-legali/'),
+    languages: { it: absoluteUrl('/note-legali/'), 'zh-Hant': absoluteUrl('/zh-hant/note-legali/') },
+  },
 };
 
 export default function Page() {

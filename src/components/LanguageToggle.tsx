@@ -11,8 +11,9 @@ export default function LanguageToggle({ locale }: { locale: string }) {
     const segments = pathname.split('/').filter(Boolean);
     const hasLocalePrefix = segments[0] === 'it' || segments[0] === 'zh-hant';
 
+    const guideInfoPage = ['chi-siamo', 'note-legali', 'contatti'].includes(segments[0]);
     if (!hasLocalePrefix) {
-      return targetLocale === 'it' ? '/' : `/${targetLocale}/`;
+      return targetLocale === 'it' ? '/' : guideInfoPage ? `/${targetLocale}/${segments[0]}/` : `/${targetLocale}/`;
     }
 
     const remainingSegments = segments.slice(1);

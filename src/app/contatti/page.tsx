@@ -8,7 +8,10 @@ import { absoluteUrl } from '@/lib/site';
 export const metadata: Metadata = {
   title: "Contatti · Redazione e sito culturale",
   description: "Scegli il contatto corretto: la redazione di questa guida e i responsabili delle visite sono soggetti distinti.",
-  alternates: { canonical: absoluteUrl('/contatti/') },
+  alternates: {
+    canonical: absoluteUrl('/contatti/'),
+    languages: { it: absoluteUrl('/contatti/'), 'zh-Hant': absoluteUrl('/zh-hant/contatti/') },
+  },
 };
 
 export default function Page() {

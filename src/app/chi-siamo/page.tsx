@@ -8,7 +8,10 @@ import { absoluteUrl } from '@/lib/site';
 export const metadata: Metadata = {
   title: "Chi siamo · Guida indipendente",
   description: "Palombarolungo.com è una guida turistica indipendente dedicata alla storia e alla visita del Palombaro Lungo di Matera.",
-  alternates: { canonical: absoluteUrl('/chi-siamo/') },
+  alternates: {
+    canonical: absoluteUrl('/chi-siamo/'),
+    languages: { it: absoluteUrl('/chi-siamo/'), 'zh-Hant': absoluteUrl('/zh-hant/chi-siamo/') },
+  },
 };
 
 export default function Page() {

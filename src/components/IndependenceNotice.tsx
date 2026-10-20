@@ -31,9 +31,9 @@ export default function IndependenceNotice() {
           {isChinese ? ' 核實。' : '.'}
         </p>
         <nav aria-label={isChinese ? '本指南資訊' : 'Informazioni sulla guida'} className="flex flex-wrap gap-x-5 gap-y-2 mt-3">
-          <Link href="/chi-siamo/" className="underline">{isChinese ? '關於本指南（義大利文）' : 'Chi siamo'}</Link>
-          <Link href="/note-legali/" className="underline">{isChinese ? '法律說明（義大利文）' : 'Note legali'}</Link>
-          <Link href="/contatti/" className="underline">{isChinese ? '編輯部聯絡方式（義大利文）' : 'Contatti della redazione'}</Link>
+          <Link href={isChinese ? '/zh-hant/chi-siamo/' : '/chi-siamo/'} className="underline">{isChinese ? '關於本指南' : 'Chi siamo'}</Link>
+          <Link href={isChinese ? '/zh-hant/note-legali/' : '/note-legali/'} className="underline">{isChinese ? '法律說明' : 'Note legali'}</Link>
+          <Link href={isChinese ? '/zh-hant/contatti/' : '/contatti/'} className="underline">{isChinese ? '編輯部聯絡方式' : 'Contatti della redazione'}</Link>
         </nav>
       </div>
     </aside>

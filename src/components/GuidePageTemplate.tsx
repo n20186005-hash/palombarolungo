@@ -27,15 +27,17 @@ export default function GuidePageTemplate({
   intro,
   sections,
   links,
+  locale = 'it',
 }: {
   title: string;
   intro: string;
   sections: Section[];
   links: LinkItem[];
+  locale?: 'it' | 'zh-hant';
 }) {
   return (
     <main>
-      <SiteHeader locale="it" homeHref="/" />
+      <SiteHeader locale={locale} homeHref={locale === 'it' ? '/' : '/zh-hant/'} />
 
       <section className="section-container pt-8 pb-10 md:pt-12">
         <div className="max-w-4xl">
@@ -83,7 +85,7 @@ export default function GuidePageTemplate({
         </section>
       ))}
 
-      <Footer locale="it" />
+      <Footer locale={locale} />
     </main>
   );
 }

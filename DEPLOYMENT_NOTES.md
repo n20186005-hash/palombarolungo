@@ -20,4 +20,4 @@ Attraction information points to the separate external site https://www.palombar
 - The pinned Next.js 14.2.15 dependency emits a security warning during installation. The current configuration exports static assets and serves them through a Worker rather than a Next.js application server. Update the framework in a separate tested dependency change and assess advisories against the actual deployment.
 - The changes reduce identity confusion; they do not determine trademark/domain rights or guarantee protection from complaints or litigation.
 
-Repository updates are prepared on a review branch. Production deployment is not performed by this change.
+The initial identity update was merged to `main` and its production Cloudflare build succeeded on 14 October 2026. The Traditional Chinese about, legal and contact pages in this follow-up must be verified against the production URLs after deployment.

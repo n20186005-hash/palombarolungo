@@ -5,7 +5,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
   return [
-    ...['chi-siamo', 'note-legali', 'contatti'].map((slug) => ({ url: absoluteUrl(`/${slug}/`), lastModified, changeFrequency: 'monthly' as const, priority: 0.4 })),
+    ...['chi-siamo', 'note-legali', 'contatti'].flatMap((slug) => [
+      { url: absoluteUrl(`/${slug}/`), lastModified, changeFrequency: 'monthly' as const, priority: 0.4 },
+      { url: absoluteUrl(`/zh-hant/${slug}/`), lastModified, changeFrequency: 'monthly' as const, priority: 0.4 },
+    ]),
     {
       url: absoluteUrl('/'),
       lastModified,
