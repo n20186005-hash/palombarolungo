@@ -9,7 +9,7 @@ import { absoluteUrl, siteConfig } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'Palombaro Lungo Recensioni: Vale la Pena Visitarlo?',
   description:
-    'Sintesi delle recensioni sul Palombaro Lungo di Matera: cosa piace di piu ai visitatori, possibili limiti della visita e per chi e consigliato.',
+    'Valutazione Google Maps con data e consigli della redazione per decidere se visitare il Palombaro Lungo: durata, formato autonomo e accesso.',
   alternates: {
     canonical: absoluteUrl('/recensioni/'),
     languages: {
@@ -33,8 +33,13 @@ export default function RecensioniPage() {
     <NextIntlClientProvider locale="it" messages={itMessages as unknown as AbstractIntlMessages}>
       <StructuredData data={jsonLd} />
       <GuidePageTemplate
+        checkedDate="2 novembre 2026"
+        sources={[
+          { href: 'https://palombarolungo.it/', label: 'Palombarolungo.it — il luogo e la posizione' },
+          { href: 'https://palombarolungo.it/orari-e-modalita-di-visita', label: 'Palombarolungo.it — modalità di visita' },
+        ]}
         title="Palombaro Lungo Recensioni: Vale la Pena Visitarlo?"
-        intro="Le recensioni del Palombaro Lungo convergono su un punto molto chiaro: e una visita breve ma sorprendente. Il contesto sotto Piazza Vittorio Veneto, l atmosfera sotterranea e il prezzo contenuto fanno percepire questa tappa come una delle esperienze con il miglior rapporto qualita-prezzo a Matera."
+        intro="Questa pagina distingue la valutazione numerica pubblicata da Google Maps dai consigli della redazione. Non è un’analisi statistica delle recensioni: propone criteri per capire se una breve visita autonoma alla cisterna corrisponde alle tue aspettative."
         links={[
           { href: '/', label: 'Torna alla guida completa del Palombaro Lungo Matera' },
           { href: '/orari-biglietti/', label: 'Verifica orari e prezzi' },
@@ -43,23 +48,23 @@ export default function RecensioniPage() {
         ]}
         sections={[
           {
-            title: 'Cosa piace di piu ai visitatori',
+            title: 'Il punto di vista della redazione',
             paragraphs: [
-              'Le persone apprezzano soprattutto l effetto scenografico delle volte, il contrasto tra la piazza in superficie e il grande spazio sotterraneo, la posizione centrale e la facilita con cui la visita si inserisce in un itinerario a piedi nel centro storico di Matera.',
-              `Anche il prezzo gioca un ruolo importante: con una valutazione media di ${siteConfig.ratingValue.toFixed(1)} su 5 e ${siteConfig.reviewCount.toLocaleString('it-IT')} recensioni su Google Maps, il Palombaro Lungo viene spesso considerato una tappa consigliabile quasi a prescindere dalla durata ridotta.`,
+              'La redazione suggerisce questa tappa a chi vuole osservare un esempio del sistema delle acque di Matera. Il volume scavato e il rivestimento impermeabile permettono di leggere la funzione della cisterna, oltre al suo aspetto visivo.',
+              `Rilevazione Google Maps del 2 novembre 2026: valutazione media di ${siteConfig.ratingValue.toFixed(1)} su 5 e ${siteConfig.reviewCount.toLocaleString('it-IT')} recensioni. Sono dati di una piattaforma esterna e possono cambiare; questa guida non raccoglie proprie recensioni.`,
             ],
           },
           {
-            title: 'Le osservazioni piu frequenti',
+            title: 'Limiti da confrontare con le proprie aspettative',
             paragraphs: [
-              'Il limite citato piu spesso e la brevissima durata della visita. Chi si aspetta un percorso esteso o una lunga esperienza museale potrebbe trovarlo piu rapido del previsto.',
-              'Un altro aspetto da considerare e l accesso: la presenza di scale e passerelle rende la visita meno comoda per chi ha difficolta motorie.',
+              'Il sito del luogo indica una visita autonoma di circa 15 minuti. Se cerchi un percorso lungo o spiegazioni guidate incluse, verifica prima che questa modalità sia adatta al tuo programma.',
+              'Un altro aspetto da considerare e l accesso: le condizioni delle passerelle e del percorso devono essere verificate direttamente se si hanno esigenze di mobilità.',
             ],
           },
           {
             title: 'Vale la pena visitarlo?',
             paragraphs: [
-              'Per la maggior parte dei visitatori la risposta e si, soprattutto se e la prima volta a Matera. Non e il luogo in cui passare ore, ma e uno di quelli che si ricordano meglio per atmosfera e particolarita.',
+              'Il consiglio della redazione è di considerarlo se ti interessa la storia della raccolta dell’acqua e cerchi una tappa breve nel centro storico. La scelta dipende dal tuo interesse e dal tempo disponibile, non dal solo punteggio di una piattaforma.',
               'Se vuoi verificare le recensioni direttamente alla fonte, la soluzione piu affidabile resta sempre la scheda del luogo su Google Maps collegata da questa guida indipendente.',
             ],
           },

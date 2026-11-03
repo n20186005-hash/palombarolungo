@@ -28,12 +28,17 @@ export default function GuidePageTemplate({
   sections,
   links,
   locale = 'it',
+  sources = [],
+  checkedDate,
+
 }: {
   title: string;
   intro: string;
   sections: Section[];
   links: LinkItem[];
   locale?: 'it' | 'zh-hant';
+  sources?: LinkItem[];
+  checkedDate?: string;
 }) {
   return (
     <main>
@@ -85,6 +90,12 @@ export default function GuidePageTemplate({
         </section>
       ))}
 
+      {checkedDate && <section className="section-container pb-10">
+        <p className="body-text text-sm">{locale === 'it' ? 'A cura della redazione della guida indipendente. Fonti controllate il ' : '獨立指南編輯整理，資料核查日期：'}{checkedDate}.</p>
+        <ul className="space-y-3 mt-4">
+          {sources.map(source => <li key={source.href}><a href={source.href} target="_blank" rel="noopener noreferrer" className="underline">{source.label}</a></li>)}
+        </ul>
+      </section>}
       <Footer locale={locale} />
     </main>
   );
