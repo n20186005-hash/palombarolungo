@@ -3,6 +3,7 @@ import { NextIntlClientProvider, type AbstractIntlMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import itMessages from '@/messages/it.json';
 import GuidePageTemplate from '@/components/GuidePageTemplate';
+import MediaCoverage from '@/components/MediaCoverage';
 import { absoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function Page() {
           { href: '/note-legali/', label: 'Note legali' },
           { href: '/contatti/', label: 'Contatti della redazione' },
         ]}
+        children={<MediaCoverage locale="it" />}
         sections={[
   {
     "title": "Identità e indipendenza",

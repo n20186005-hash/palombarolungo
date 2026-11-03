@@ -13,6 +13,7 @@ import Reviews from '@/components/Reviews';
 import Tips from '@/components/Tips';
 import MapEmbed from '@/components/MapEmbed';
 import Sources from '@/components/Sources';
+import MediaCoverage from '@/components/MediaCoverage';
 import Footer from '@/components/Footer';
 
 export default function HomePageContent({ locale }: { locale: string }) {
@@ -30,6 +31,7 @@ export default function HomePageContent({ locale }: { locale: string }) {
       <Reviews />
       <Tips />
       <MapEmbed />
+      <MediaCoverage locale={locale} />
       <Sources />
       <Footer locale={locale} />
     </main>

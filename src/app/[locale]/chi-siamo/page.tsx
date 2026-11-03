@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import GuidePageTemplate from '@/components/GuidePageTemplate';
+import MediaCoverage from '@/components/MediaCoverage';
 import { absoluteUrl } from '@/lib/site';
 
 export function generateStaticParams() {
@@ -29,6 +30,7 @@ export default function Page() {
         { href: '/zh-hant/note-legali/', label: '法律說明' },
         { href: '/zh-hant/contatti/', label: '編輯部聯絡方式' },
       ]}
+      children={<MediaCoverage locale="zh-hant" />}
       sections={[
         {
           title: '獨立身分',
