@@ -1,6 +1,6 @@
 # Independent guide identity update
 
-This change identifies palombarolungo.com as an independent, non-official tourism guide. It adds an Italian notice in the root layout (including localized, legal and not-found pages), shared header/footer identity, and `/chi-siamo/`, `/note-legali/`, `/contatti/` pages. Existing attraction photographs, map embed, gallery controls, theme/language controls and static Cloudflare export configuration are retained.
+This change identifies palombarolungo.com as an independent, non-official tourism guide. It adds an Italian notice in the root layout (including localized, legal and not-found pages), shared header/footer identity, and `/chi-siamo/`, `/note-legali/`, `/contatti/` pages. The map embed, theme/language controls and static Cloudflare export configuration are retained. See IMAGE_SOURCES.md for the subsequent photograph replacement.
 
 Attraction information points to the separate external site https://www.palombarolungo.it/. Its published telephone is distinguished from the editorial email already present in this repository. Opening times, ticket prices and the no-telephone-booking statement were checked against https://palombarolungo.it/orari-e-modalita-di-visita on 14 October 2026. Ratings remain historical reference data, not live values; unsupported aggregate-rating schema and publisher/attraction `sameAs` identity claims were removed.
 
@@ -14,7 +14,7 @@ Attraction information points to the separate external site https://www.palombar
 
 ## Remaining owner checks
 
-- No image licenses or Google Maps data-use permissions were provided. Existing assets are preserved, but their ownership, permission and attribution still need verification. A disclaimer or source label does not establish permission.
+- The legacy photographs were retired from public output because their sources and permissions were not documented. The replacement photograph has visible attribution and a verified Commons license statement; see IMAGE_SOURCES.md. Google Maps data-use permissions have not been independently established.
 - The editorial email is reused from the repository. Verify that it is monitored. No legal operator name, registered address or company details have been invented; add verified operator details where applicable.
 - Existing privacy/cookie claims, external Google Maps/Google Fonts requests and the Ads.txt file require a separate assessment of actual production services and consent behavior. This patch is an identity clarification, not a complete privacy audit.
 - The pinned Next.js 14.2.15 dependency emits a security warning during installation. The current configuration exports static assets and serves them through a Worker rather than a Next.js application server. Update the framework in a separate tested dependency change and assess advisories against the actual deployment.

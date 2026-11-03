@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 import SiteHeader from '@/components/SiteHeader';
 import Footer from '@/components/Footer';
 
@@ -30,6 +31,7 @@ export default function GuidePageTemplate({
   locale = 'it',
   sources = [],
   checkedDate,
+  children,
 
 }: {
   title: string;
@@ -39,6 +41,7 @@ export default function GuidePageTemplate({
   locale?: 'it' | 'zh-hant';
   sources?: LinkItem[];
   checkedDate?: string;
+  children?: ReactNode;
 }) {
   return (
     <main>
@@ -69,6 +72,8 @@ export default function GuidePageTemplate({
           ))}
         </div>
       </section>
+
+      {children}
 
       {sections.map((section) => (
         <section key={section.title} className="section-container">

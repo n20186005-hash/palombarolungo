@@ -4,6 +4,7 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import itMessages from '@/messages/it.json';
 import GuidePageTemplate from '@/components/GuidePageTemplate';
 import StructuredData from '@/components/StructuredData';
+import Gallery from '@/components/Gallery';
 import { absoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
@@ -39,7 +40,7 @@ export default function FotoPage() {
           { href: 'https://palombarolungo.it/orari-e-modalita-di-visita', label: 'Palombarolungo.it — modalità di visita' },
         ]}
         title="Palombaro Lungo Foto: Interno della Cisterna di Matera"
-        intro="Chi cerca foto del Palombaro Lungo di solito vuole capire se la visita vale la pena. La risposta sta soprattutto negli spazi interni: volte altissime, colonne scolpite nella roccia, passerelle sopra l acqua e riflessi che rendono questo luogo uno dei piu fotogenici di Matera."
+        intro="Una foto dell’interno del Palombaro Lungo di Matera, con fonte, autore e licenza verificabili. Lo scatto del 2014 aiuta a osservare lo spazio sotterraneo, ma non certifica le condizioni di visita di oggi."
         links={[
           { href: '/', label: 'Torna alla guida completa del Palombaro Lungo Matera' },
           { href: '/orari-biglietti/', label: 'Controlla orari e biglietti' },
@@ -50,8 +51,8 @@ export default function FotoPage() {
           {
             title: 'Cosa fotografare all interno',
             paragraphs: [
-              'Le immagini piu riconoscibili del Palombaro Lungo mostrano le grandi volte in calcarenite e la prospettiva delle passerelle metalliche sospese sopra l acqua. Sono questi elementi a creare l effetto da "cattedrale d acqua" citato cosi spesso dai visitatori.',
-              'Molto interessanti anche i dettagli del cocciopesto sulle pareti, i giochi di luce sulle superfici umide e le linee degli archi che si susseguono nello spazio sotterraneo.',
+              'La fotografia qui pubblicata mostra l’interno della cisterna. Osserva le proporzioni dello spazio e il percorso visibile, senza dedurre dalla foto le condizioni attuali di acqua, illuminazione o accesso.',
+              'Per conoscere materiali e storia, consulta le fonti storiche: una fotografia da sola non permette di identificare con certezza ogni rivestimento.',
             ],
           },
           {
@@ -69,7 +70,9 @@ export default function FotoPage() {
             ],
           },
         ]}
-      />
+      >
+        <Gallery />
+      </GuidePageTemplate>
     </NextIntlClientProvider>
   );
 }

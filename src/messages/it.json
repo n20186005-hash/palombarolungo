@@ -195,17 +195,14 @@
     ]
   },
   "gallery": {
-    "title": "Galleria Fotografica",
+    "title": "Foto dell’interno del Palombaro Lungo",
     "googleMapsDesc": "Altre foto del luogo su Google Maps (sito esterno)",
     "googleMapsLink": "https://maps.app.goo.gl/cUfXtK1QWiaNUHzB8",
-    "captions": [
-      "Le volte in calcare del Palombaro Lungo illuminate",
-      "Passerelle metalliche sospese sopra l'acqua della cisterna",
-      "Archi e colonne scolpiti nella roccia di Matera",
-      "Riflessi d'acqua sul fondo della cisterna sotterranea",
-      "L'atmosfera suggestiva della cattedrale d'acqua",
-      "Dettaglio delle volte e del rivestimento in cocciopesto"
-    ]
+    "caption": "Interno del Palombaro Lungo a Matera, fotografato il 30 luglio 2014.",
+    "credit": "Foto:",
+    "source": "Fonte: Wikimedia Commons",
+    "changes": "File originale riprodotto senza modifiche; visualizzazione ridimensionata senza ritaglio.",
+    "historicalNote": "Questa foto storica non documenta le condizioni di visita attuali."
   },
   "reviews": {
     "title": "Valutazione esterna e consigli editoriali",
