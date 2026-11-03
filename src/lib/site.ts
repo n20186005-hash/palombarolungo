@@ -5,7 +5,7 @@ export const siteConfig = {
   editorialEmail: 'claritleonelmnicol@gmail.com',
   googleMapsUrl: 'https://maps.app.goo.gl/cUfXtK1QWiaNUHzB8',
   telephone: '+39 339 363 8332',
-  reviewCount: 12972,
+  reviewCount: 13141,
   ratingValue: 4.5,
   address: {
     streetAddress: 'Piazza Vittorio Veneto',

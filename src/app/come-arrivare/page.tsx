@@ -41,6 +41,11 @@ export default function ComeArrivarePage() {
     <NextIntlClientProvider locale="it" messages={itMessages as unknown as AbstractIntlMessages}>
       <StructuredData data={jsonLd} />
       <GuidePageTemplate
+        checkedDate="2 novembre 2026"
+        sources={[
+          { href: 'https://palombarolungo.it/', label: 'Palombarolungo.it — il luogo e la posizione' },
+          { href: 'https://palombarolungo.it/orari-e-modalita-di-visita', label: 'Palombarolungo.it — modalità di visita' },
+        ]}
         title="Come Arrivare al Palombaro Lungo di Matera"
         intro="Il Palombaro Lungo si trova sotto Piazza Vittorio Veneto, in una delle zone piu centrali e facili da raggiungere del centro storico di Matera. Per questo motivo e una visita comoda sia se arrivi a piedi dai Sassi, sia se parti dalle aree di parcheggio o dagli accessi principali alla citta."
         links={[
@@ -53,7 +58,7 @@ export default function ComeArrivarePage() {
           {
             title: 'Indirizzo esatto',
             paragraphs: [
-              `L indirizzo di riferimento e ${siteConfig.address.streetAddress}, ${siteConfig.address.postalCode} Matera MT, Italy. Nelle mappe puoi trovare anche il plus code MJ84+QJ Matera, Province of Matera, Italy.`,
+              `L indirizzo di riferimento e ${siteConfig.address.streetAddress}, ${siteConfig.address.postalCode} Matera MT, Italy.`,
               'Essendo sotto la piazza, conviene usare Piazza Vittorio Veneto come punto di orientamento principale e poi seguire la segnaletica locale verso l ingresso.',
             ],
           },

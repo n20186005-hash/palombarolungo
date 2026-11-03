@@ -38,10 +38,17 @@ export default function OrariBigliettiPage() {
     <NextIntlClientProvider locale="it" messages={itMessages as unknown as AbstractIntlMessages}>
       <StructuredData data={jsonLd} />
       <GuidePageTemplate
+        checkedDate="2 novembre 2026"
+        sources={[
+          { href: 'https://palombarolungo.it/', label: 'Palombarolungo.it — il luogo e la posizione' },
+          { href: 'https://palombarolungo.it/orari-e-modalita-di-visita', label: 'Palombarolungo.it — modalità di visita' },
+        ]}
         title="Palombaro Lungo: Orari, Biglietti e Prezzi 2026"
         intro="Questa pagina raccoglie le informazioni pratiche che i visitatori cercano piu spesso prima di entrare nel Palombaro Lungo di Matera: orari di apertura, prezzo del biglietto, tempi di visita e consigli per evitare la coda."
         links={[
           { href: '/', label: 'Torna alla guida completa del Palombaro Lungo Matera' },
+          { href: '/quanto-dura-la-visita/', label: 'Percorso, durata e attesa' },
+          { href: '/visita-con-bambini/', label: 'Informazioni per famiglie e scuole' },
           { href: '/foto/', label: 'Guarda le foto del Palombaro Lungo' },
           { href: '/recensioni/', label: 'Leggi cosa dicono i visitatori' },
           { href: '/come-arrivare/', label: 'Come arrivare da Piazza Vittorio Veneto' },
@@ -50,28 +57,28 @@ export default function OrariBigliettiPage() {
           {
             title: 'Orari del Palombaro Lungo',
             paragraphs: [
-              'Gli orari indicati sul sito e sulle fonti pubbliche piu consultate sono 10:00-13:00 e 15:00-18:00 tutti i giorni. Prima della visita conviene comunque verificare eventuali variazioni stagionali o chiusure straordinarie tramite i canali ufficiali.',
-              'Per chi cerca su Google "palombaro lungo orari" oppure "palombaro lungo matera orari", i momenti migliori per visitarlo sono l apertura del mattino e la riapertura pomeridiana, quando l ingresso e in genere piu scorrevole.',
+              'La pagina “Orari e modalità di visita” di palombarolungo.it, controllata il 2 novembre 2026, pubblica apertura tutti i giorni 10:00–13:00 e 15:00–18:00. È prevista una pausa fra le due fasce; controlla eventuali aggiornamenti prima di partire.',
+              'Il sito segnala possibili attese quando viene raggiunto il numero massimo di visitatori. Non pubblica fasce garantite senza coda né una durata prevista delle attese.',
             ],
           },
           {
             title: 'Biglietti e prezzi',
             paragraphs: [
-              'Il prezzo piu citato per il biglietto intero e di 3 euro, con agevolazioni o gratuitita per alcune categorie. I biglietti vengono normalmente acquistati sul posto, quindi non e una visita da organizzare con largo anticipo, ma nei periodi piu affollati e meglio arrivare con un piccolo margine.',
-              'Chi cerca "palombaro lungo biglietti" o "biglietti per palombaro lungo" di solito vuole soprattutto una risposta rapida: visita breve, costo contenuto e accesso molto centrale nel cuore di Matera.',
+              'Il listino pubblicato indica 3 euro per gli adulti, ingresso gratuito per i minori e 1,50 euro per le scolastiche. Minori e scolastiche sono categorie distinte; per condizioni non specificate, come accompagnatori o documenti richiesti, chiedi al luogo.',
+              'Non è prevista la prenotazione né per singoli né per gruppi. Il pagamento alla cassa è possibile in contanti o con carta; i gruppi oltre venti partecipanti possono anche pagare con bonifico, concordando le modalità con il luogo.',
             ],
           },
           {
             title: 'Quanto dura la visita',
             paragraphs: [
-              'La visita all interno della cisterna dura in media circa 15 minuti. Considerando l acquisto del biglietto e un eventuale breve tempo di attesa, e realistico prevedere 30-45 minuti complessivi.',
+              'La visita interna è autonoma e dura circa 15 minuti secondo il sito del luogo. All’ingresso è disponibile un volantino in italiano, inglese, francese, spagnolo, tedesco, polacco e portoghese. Aggiungi un margine per acquisto e possibili attese, senza presumere una durata totale garantita.',
               'Questo rende il Palombaro Lungo una tappa facile da inserire in un itinerario piu ampio tra Piazza Vittorio Veneto, i Sassi di Matera e gli altri luoghi storici del centro.',
             ],
           },
           {
             title: 'Consigli pratici prima di entrare',
             paragraphs: [
-              'All interno la temperatura e piu fresca rispetto all esterno e il percorso richiede scale e passerelle. Scarpe comode e una giacca leggera possono essere utili, soprattutto nelle mezze stagioni o dopo il tramonto.',
+              'Gli animali non sono ammessi secondo la pagina di visita. Per esigenze specifiche di accesso, mobilità o passeggini, chiedi direttamente informazioni sul percorso: le fonti consultate non forniscono una scheda completa di accessibilità.',
               `Questa guida non vende biglietti e non gestisce prenotazioni. Verifica orari, prezzi e modalità di accesso su ${siteConfig.attractionWebsite}. Il recapito ${siteConfig.telephone} è pubblicato dal sito di riferimento per la visita e non appartiene alla nostra redazione; non è possibile prenotare telefonicamente.`,
             ],
           },

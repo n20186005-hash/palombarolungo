@@ -33,6 +33,11 @@ export default function FotoPage() {
     <NextIntlClientProvider locale="it" messages={itMessages as unknown as AbstractIntlMessages}>
       <StructuredData data={jsonLd} />
       <GuidePageTemplate
+        checkedDate="2 novembre 2026"
+        sources={[
+          { href: 'https://palombarolungo.it/', label: 'Palombarolungo.it — il luogo e la posizione' },
+          { href: 'https://palombarolungo.it/orari-e-modalita-di-visita', label: 'Palombarolungo.it — modalità di visita' },
+        ]}
         title="Palombaro Lungo Foto: Interno della Cisterna di Matera"
         intro="Chi cerca foto del Palombaro Lungo di solito vuole capire se la visita vale la pena. La risposta sta soprattutto negli spazi interni: volte altissime, colonne scolpite nella roccia, passerelle sopra l acqua e riflessi che rendono questo luogo uno dei piu fotogenici di Matera."
         links={[
@@ -53,13 +58,13 @@ export default function FotoPage() {
             title: 'Quando le foto rendono meglio',
             paragraphs: [
               'La luce e controllata artificialmente e l ambiente e piuttosto scuro, quindi un telefono recente o una fotocamera con buona resa in condizioni di poca luce aiutano molto. Non serve cercare il sole giusto, ma e utile avere una mano ferma e qualche secondo per comporre lo scatto.',
-              'Se vuoi fotografare con piu calma, i momenti meno affollati sono in genere a inizio mattina o subito dopo la riapertura pomeridiana.',
+              'Prima di fotografare chiedi al personale le regole su foto, flash e treppiedi. Non è pubblicata una previsione di affluenza che garantisca momenti senza coda.',
             ],
           },
           {
             title: 'Foto e aspettative di visita',
             paragraphs: [
-              'Le foto online rendono bene la monumentalita del luogo, ma dal vivo colpiscono soprattutto il silenzio, la temperatura fresca e la percezione della profondita sotto Piazza Vittorio Veneto. Per questo molte recensioni definiscono il Palombaro Lungo una sorpresa di Matera piu che una semplice tappa fotografica.',
+              'Le foto online rendono bene la monumentalita del luogo, e possono aiutare a riconoscere le passerelle, le volte e il rivestimento prima della visita. Non descrivono però in modo completo le condizioni di accesso del giorno.',
               'Se stai organizzando una visita breve, questa pagina puo aiutarti a capire in anticipo se le immagini del sito e della galleria corrispondono all esperienza che cerchi.',
             ],
           },

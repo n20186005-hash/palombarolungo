@@ -18,6 +18,12 @@ export default function Sources() {
           </li>
         ))}
       </ul>
+      <ul className="space-y-3 mt-6 text-sm">
+        <li><a className="underline" href="https://palombarolungo.it/" target="_blank" rel="noopener noreferrer">Palombarolungo.it</a></li>
+        <li><a className="underline" href="https://palombarolungo.it/orari-e-modalita-di-visita" target="_blank" rel="noopener noreferrer">Palombarolungo.it — Orari e modalità di visita</a></li>
+        <li><a className="underline" href="https://www.basilicataturistica.it/scopri-la-basilicata/matera-patrimonio-mondiale-dellumanita/scopri-gli-itinerari-di-matera/itinerario-il-piano-e-il-centro-storico/" target="_blank" rel="noopener noreferrer">Basilicata Turistica</a></li>
+        <li><a className="underline" href="https://maps.app.goo.gl/cUfXtK1QWiaNUHzB8" target="_blank" rel="noopener noreferrer">Google Maps</a></li>
+      </ul>
       <div className="divider mt-16" />
     </section>
   );
