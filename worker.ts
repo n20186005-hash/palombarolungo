@@ -8,7 +8,8 @@ export default {
     const url = new URL(request.url);
     const canonicalHost = 'www.palombarolungo.com';
 
-    if (url.protocol !== 'https:' || url.hostname !== canonicalHost) {
+    const isProductionHost = url.hostname === 'palombarolungo.com' || url.hostname === canonicalHost;
+    if (isProductionHost && (url.protocol !== 'https:' || url.hostname !== canonicalHost)) {
       url.protocol = 'https:';
       url.hostname = canonicalHost;
       return Response.redirect(url.toString(), 301);
@@ -24,24 +25,23 @@ export default {
       !url.pathname.endsWith('/') &&
       !url.pathname.slice(1).includes('.')
     ) {
-      return env.ASSETS.fetch(new Request(url.pathname + '/', request));
+      url.pathname += '/';
+      request = new Request(url.toString(), request);
     }
 
-    const res = await env.ASSETS.fetch(request);
+    const errorAliases = ['/404', '/404/', '/404.html', '/_not-found', '/_not-found/'];
+    const isErrorAlias = errorAliases.includes(url.pathname);
+    const errorHeaders = new Headers(request.headers);
+    for (const name of ['if-none-match', 'if-modified-since', 'if-match', 'if-unmodified-since', 'if-range', 'range']) errorHeaders.delete(name);
+    const assetRequest = isErrorAlias
+      ? new Request(new URL('/404/', request.url), { method: request.method, headers: errorHeaders })
+      : request;
+    const res = await env.ASSETS.fetch(assetRequest);
 
-    if (res.status === 404) {
-      const fallback = await env.ASSETS.fetch(
-        new Request(new URL('/404.html', request.url).toString(), request)
-      );
-      if (fallback.ok) {
-        return new Response(fallback.body, {
-          status: 404,
-          headers: {
-            'content-type':
-              fallback.headers.get('content-type') || 'text/html; charset=utf-8'
-          }
-        });
-      }
+    if (res.status === 404 || isErrorAlias) {
+      const headers = new Headers(res.headers);
+      headers.set('x-robots-tag', 'noindex');
+      return new Response(res.body, { status: 404, headers });
     }
 
     return res;
