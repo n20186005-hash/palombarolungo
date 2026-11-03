@@ -11,16 +11,6 @@ export default function Hero({ locale }: { locale: string }) {
 
   return (
     <section className="relative overflow-hidden">
-      <div 
-        className="absolute inset-0 z-0" 
-        style={{ 
-          backgroundImage: 'url("/gallery/images (15).jpg")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          opacity: 0.3,
-        }} 
-      />
-      
       <SiteHeader locale={locale} />
 
       <div className="section-container relative z-10 pt-8 pb-16 md:pt-12 md:pb-24 text-center">
