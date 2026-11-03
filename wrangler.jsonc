@@ -5,6 +5,7 @@
   "name": "palombarolungo",
   "main": "./worker.ts",
   "compatibility_date": "2025-01-01",
+  "previews": {},
   "assets": {
     "directory": "./out",
     "binding": "ASSETS",
