@@ -13,7 +13,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Piazza Vittorio Veneto Matera",
     "geoQuery": "Piazza Vittorio Veneto, Piazza Vittorio Veneto, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Matera%20-%20Piazza%20Vittorio%20Veneto.JPG?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Matera_-_Piazza_Vittorio_Veneto.JPG/960px-Matera_-_Piazza_Vittorio_Veneto.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Matera_-_Piazza_Vittorio_Veneto.JPG",
       "caption": "Piazza Vittorio Veneto, veduta della piazza"
     },
@@ -43,7 +43,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Belvedere Luigi Guerricchio Matera",
     "geoQuery": "Belvedere Luigi Guerricchio, Piazza Vittorio Veneto, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/163%20La%20Catedral%20i%20el%20Sasso%20Barisano%20(Matera)%2C%20des%20del%20Belvedere%20Luigi%20Guerricchio.jpg?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/163_La_Catedral_i_el_Sasso_Barisano_%28Matera%29%2C_des_del_Belvedere_Luigi_Guerricchio.jpg/960px-163_La_Catedral_i_el_Sasso_Barisano_%28Matera%29%2C_des_del_Belvedere_Luigi_Guerricchio.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:163_La_Catedral_i_el_Sasso_Barisano_(Matera)%2C_des_del_Belvedere_Luigi_Guerricchio.jpg",
       "caption": "Panorama dal Belvedere Luigi Guerricchio"
     },
@@ -73,7 +73,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Cattedrale di Matera",
     "geoQuery": "Cattedrale di Matera, Piazza Duomo, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cathedral%20(Matera)%2001.jpg?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cathedral_%28Matera%29_01.jpg/960px-Cathedral_%28Matera%29_01.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Cathedral_(Matera)_01.jpg",
       "caption": "Facciata della Cattedrale di Matera"
     },
@@ -133,7 +133,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Sasso Barisano Matera",
     "geoQuery": "Sasso Barisano, Sasso Barisano, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Matera%20-%20Veduta%20del%20Sasso%20Barisano.JPG?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Matera_-_Veduta_del_Sasso_Barisano.JPG/960px-Matera_-_Veduta_del_Sasso_Barisano.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Matera_-_Veduta_del_Sasso_Barisano.JPG",
       "caption": "Panorama del Sasso Barisano"
     },
@@ -163,7 +163,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Sasso Caveoso Matera",
     "geoQuery": "Sasso Caveoso, Sasso Caveoso, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sasso%20Caveoso%20(Matera)%2001.jpg?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Sasso_Caveoso_%28Matera%29_01.jpg/960px-Sasso_Caveoso_%28Matera%29_01.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Sasso_Caveoso_(Matera)_01.jpg",
       "caption": "Paesaggio del Sasso Caveoso"
     },
@@ -193,7 +193,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Chiesa San Pietro Caveoso Matera",
     "geoQuery": "Chiesa di San Pietro Caveoso, Piazza San Pietro Caveoso, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Matera%20-%20Chiesa%20di%20San%20Pietro%20caveoso.JPG?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Matera_-_Chiesa_di_San_Pietro_caveoso.JPG/960px-Matera_-_Chiesa_di_San_Pietro_caveoso.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Matera_-_Chiesa_di_San_Pietro_caveoso.JPG",
       "caption": "Chiesa di San Pietro Caveoso"
     },
@@ -223,7 +223,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Santa Maria de Idris Matera",
     "geoQuery": "Santa Maria de Idris, Rione Sasso Caveoso, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Matera%20-%20Sasso%20con%20Chiesa%20di%20S.%20Maria%20di%20Idris.JPG?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Matera_-_Sasso_con_Chiesa_di_S._Maria_di_Idris.JPG/960px-Matera_-_Sasso_con_Chiesa_di_S._Maria_di_Idris.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Matera_-_Sasso_con_Chiesa_di_S._Maria_di_Idris.JPG",
       "caption": "La rupe e la chiesa di Santa Maria de Idris"
     },
@@ -253,7 +253,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Casa Grotta Vico Solitario Matera",
     "geoQuery": "Casa Grotta di Vico Solitario, Vico Solitario, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Casa%20Grotta%20di%20Vico%20Solitario%2001.jpg?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Casa_Grotta_di_Vico_Solitario_01.jpg/960px-Casa_Grotta_di_Vico_Solitario_01.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Casa_Grotta_di_Vico_Solitario_01.jpg",
       "caption": "Interno della Casa Grotta di Vico Solitario"
     },
@@ -283,7 +283,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Palazzo Lanfranchi Matera",
     "geoQuery": "Palazzo Lanfranchi, Piazzetta Giovanni Pascoli, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Palazzo%20Lanfranchi%20-%20Matera.jpg?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palazzo_Lanfranchi_-_Matera.jpg/960px-Palazzo_Lanfranchi_-_Matera.jpg",
       "source": "https://commons.wikimedia.org/wiki/File:Palazzo_Lanfranchi_-_Matera.jpg",
       "caption": "Facciata di Palazzo Lanfranchi"
     },
@@ -313,7 +313,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Chiesa San Giovanni Battista Matera",
     "geoQuery": "Chiesa di San Giovanni Battista, Piazza San Giovanni Battista, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Matera%20-%20Chiesa%20di%20San%20Giovanni%2001.JPG?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Matera_-_Chiesa_di_San_Giovanni_01.JPG/960px-Matera_-_Chiesa_di_San_Giovanni_01.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Matera_-_Chiesa_di_San_Giovanni_01.JPG",
       "caption": "Chiesa di San Giovanni Battista"
     },
@@ -343,7 +343,7 @@ export const nearbyAttractions: NearbyAttraction[] = [
     "query": "Castello Tramontano Matera",
     "geoQuery": "Castello Tramontano, Via Castello, Matera, Italia",
     "image": {
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Matera%20-%20Castello%20Tramontano.JPG?width=960",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Matera_-_Castello_Tramontano.JPG/960px-Matera_-_Castello_Tramontano.JPG",
       "source": "https://commons.wikimedia.org/wiki/File:Matera_-_Castello_Tramontano.JPG",
       "caption": "Castello Tramontano"
     },
