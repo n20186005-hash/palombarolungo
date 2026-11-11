@@ -12,42 +12,8 @@ export default function MapEmbed() {
       <p className="body-text mb-6 text-sm" style={{ color: 'var(--color-text-muted)' }}>
         {t('address')}
       </p>
-      <p className="body-text mb-6 text-sm">{t('contactNote')}</p>
-      <div className="grid gap-4 mb-6 md:grid-cols-3">
-        <div className="card">
-          <p className="text-xs mb-2" style={{ color: 'var(--color-text-muted)' }}>
-            {t('addressLabel')}
-          </p>
-          <p className="text-sm font-medium" style={{ color: 'var(--color-text-primary)' }}>
-            {t('address')}
-          </p>
-        </div>
-        <div className="card">
-          <p className="text-xs mb-2" style={{ color: 'var(--color-text-muted)' }}>
-            {t('phoneLabel')}
-          </p>
-          <a
-            href={`tel:${siteConfig.telephone.replace(/\s+/g, '')}`}
-            className="text-sm font-medium hover:underline"
-            style={{ color: 'var(--color-text-primary)' }}
-          >
-            {siteConfig.telephone}
-          </a>
-        </div>
-        <div className="card">
-          <p className="text-xs mb-2" style={{ color: 'var(--color-text-muted)' }}>
-            {t('websiteLabel')}
-          </p>
-          <a
-            href={siteConfig.attractionWebsite}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-medium hover:underline"
-            style={{ color: 'var(--color-text-primary)' }}
-          >
-            palombarolungo.it
-          </a>
-        </div>
+      <div className="grid gap-4 mb-6">
+        <div className="card"><p className="text-xs mb-2" style={{ color: 'var(--color-text-muted)' }}>{t('addressLabel')}</p><p className="text-sm font-medium" style={{ color: 'var(--color-text-primary)' }}>{t('address')}</p></div>
       </div>
       <div className="rounded-lg overflow-hidden mb-6" style={{ border: '1px solid var(--color-border)' }}>
         <iframe

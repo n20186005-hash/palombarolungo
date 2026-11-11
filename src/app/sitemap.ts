@@ -1,10 +1,13 @@
 import { MetadataRoute } from 'next';
 import { absoluteUrl, localizedPath } from '@/lib/site';
+import { nearbyAttractions } from '@/lib/nearby';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
   return [
+    { url: absoluteUrl('/nearby/'), lastModified, changeFrequency: 'monthly' as const, priority: 0.8 },
+    ...nearbyAttractions.map(item => ({ url: absoluteUrl(`/nearby/${item.slug}/`), lastModified, changeFrequency: 'monthly' as const, priority: 0.7 })),
     ...["storia", "quanto-dura-la-visita", "visita-con-bambini", "matera-sotterranea"].map(slug => ({ url: absoluteUrl(`/${slug}/`), lastModified, changeFrequency: 'monthly' as const, priority: 0.7 })),
     ...['chi-siamo', 'note-legali', 'contatti'].flatMap((slug) => [
       { url: absoluteUrl(`/${slug}/`), lastModified, changeFrequency: 'monthly' as const, priority: 0.4 },

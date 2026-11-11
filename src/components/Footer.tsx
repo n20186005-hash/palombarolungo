@@ -9,7 +9,7 @@ export default function Footer({ locale }: { locale: string }) {
 
   return (
     <footer className="section-container py-12">
-      {/* Disclaimer */}
+      {/* Single footer disclaimer; no notices duplicated elsewhere */}
       <div
         className="mb-10 px-5 py-4 rounded-lg text-xs leading-relaxed space-y-2"
         style={{
@@ -19,10 +19,7 @@ export default function Footer({ locale }: { locale: string }) {
         }}
       >
         <p>{t('disclaimer')}</p>
-        <p className="italic">{t('disclaimerEn')}</p>
-        <p className="mt-4 pt-2 border-t" style={{ borderColor: 'var(--color-border)' }}>
-          {t('sourceInfo')}
-        </p>
+        
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">

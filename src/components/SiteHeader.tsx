@@ -25,7 +25,7 @@ export default function SiteHeader({
         style={{ color: 'var(--color-text-primary)' }}
       >
         {t('siteTitle')}
-        <span className="block text-[10px] sm:text-xs font-normal">{t('siteRole')}</span>
+        
       </Link>
       <div className="flex shrink-0 items-center gap-3">
         <LanguageToggle locale={locale} />

@@ -15,6 +15,7 @@ import MapEmbed from '@/components/MapEmbed';
 import Sources from '@/components/Sources';
 import MediaCoverage from '@/components/MediaCoverage';
 import Footer from '@/components/Footer';
+import NearbyTeaser from '@/components/NearbyTeaser';
 
 export default function HomePageContent({ locale }: { locale: string }) {
   return (
@@ -31,6 +32,7 @@ export default function HomePageContent({ locale }: { locale: string }) {
       <Reviews />
       <Tips />
       <MapEmbed />
+      <NearbyTeaser locale={locale} />
       <MediaCoverage locale={locale} />
       <Sources />
       <Footer locale={locale} />

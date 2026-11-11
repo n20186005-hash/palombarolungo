@@ -44,7 +44,7 @@ export default function Gallery() {
   return (
     <section className="section-container relative z-10" id="foto">
       <h2 className="section-title">{t('title')}</h2>
-      <p className="mb-6 text-center text-sm" style={{ color: 'var(--color-text-secondary)' }}>{t('archiveNote')}</p>
+      {/* Archive note retained in source but intentionally not rendered: {t('archiveNote')} */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {currentPhotos.map((photo, i) => {

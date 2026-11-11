@@ -1,5 +1,4 @@
 import '@/styles/globals.css';
-import IndependenceNotice from '@/components/IndependenceNotice';
 import type { Metadata } from 'next';
 import { siteConfig } from '@/lib/site';
 
@@ -38,7 +37,6 @@ export default function RootLayout({
         className="min-h-screen"
         style={{ backgroundColor: 'var(--color-bg)', color: 'var(--color-text-primary)' }}
       >
-        <IndependenceNotice />
         {children}
       </body>
     </html>
