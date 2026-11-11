@@ -47,7 +47,7 @@ export default function GuidePageTemplate({
     <main>
       <SiteHeader locale={locale} homeHref={locale === 'it' ? '/' : '/zh-hant/'} />
 
-      <section className="section-container pt-8 pb-10 md:pt-12">
+      <section className="section-container pt-28 pb-10 md:pt-28">
         <div className="max-w-4xl">
           <p className="text-xs uppercase tracking-[0.2em] mb-4" style={{ color: 'var(--color-text-muted)' }}>
             Palombaro Lungo Matera
